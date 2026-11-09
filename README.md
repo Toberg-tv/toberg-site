@@ -3,16 +3,15 @@
 A static rebuild of the Adobe Portfolio site **toberg.tv**, built with
 [Eleventy](https://www.11ty.dev/).
 
-The site is being cut over from Adobe Portfolio to GitHub Pages at
-**<https://toberg.tv/>**. Until DNS is switched, `toberg.tv` still serves Adobe; the GitHub
-Pages build is already configured for the custom domain.
+The site is live at **<https://toberg.tv/>** on GitHub Pages (cut over from Adobe Portfolio
+on 2026-11-09, with HTTPS enforced).
 
 ## GitHub Pages
 
 - Repository: **<https://github.com/Toberg-tv/toberg-site>** (public).
 - Every push to `main` builds and deploys via `.github/workflows/pages.yml`.
-- The custom domain is **`toberg.tv`**; DNS/HTTPS cutover is in progress.
-- See [`docs/domain-cutover.md`](docs/domain-cutover.md) for the DNS runbook.
+- Live at **`https://toberg.tv/`**; `www.toberg.tv` redirects to the apex; HTTPS is enforced.
+- See [`docs/domain-cutover.md`](docs/domain-cutover.md) for the DNS runbook and rollback.
 
 ## Requirements
 
@@ -58,5 +57,4 @@ Press `Ctrl+C` in the terminal to stop it.
 - **Each project page** — title, description, images, and external Vimeo/YouTube/framerate embeds.
 - **`/bufo/` and `/flail-wip/`** — intentional "being migrated from Adobe" video placeholders.
 
-The canonical site is **<https://toberg.tv/>** (cutover in progress). Local dev keeps the
-root paths shown above.
+The canonical site is **<https://toberg.tv/>**. Local dev keeps the root paths shown above.

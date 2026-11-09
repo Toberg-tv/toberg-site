@@ -1,22 +1,18 @@
 # AGENTS.md
 
-## Status: GitHub Pages live; custom-domain cutover in progress
+## Status: Live at https://toberg.tv/
 
 This repo is a static rebuild of the Adobe Portfolio site **toberg.tv** as an Eleventy site.
 It is **public** and deploys to GitHub Pages on every push to `main`:
 
-- Old preview URL: <https://toberg-tv.github.io/toberg-site/> (now 301s to `toberg.tv`)
+- Live URL: <https://toberg.tv/>
+- Old preview URL: <https://toberg-tv.github.io/toberg-site/> (301s to the custom domain)
 - Repository: <https://github.com/Toberg-tv/toberg-site>
-- Target live URL: <https://toberg.tv/> (cutover in progress)
 
-The user has approved the custom-domain cutover. Follow **`docs/domain-cutover.md`** for the
-DNS baseline, target records, sequence, verification, and rollback. Until DNS is switched,
-`toberg.tv` still serves the Adobe site. **Do not change MX/TXT/email records or cancel
-Adobe** as part of the cutover.
-
-**Current cutover state (2026-11-09):** the Pages custom domain `toberg.tv` is set and the
-workflow builds root URLs (`configure-pages` `base_path` is empty). Waiting on the GoDaddy
-DNS changes, then certificate/Enforce HTTPS, QA, and canonical/sitemap work.
+The custom-domain cutover is **complete** (2026-11-09): GoDaddy DNS points at GitHub Pages,
+the Let's Encrypt certificate is approved (covers `toberg.tv` + `www.toberg.tv`), and
+**Enforce HTTPS** is on. The runbook and rollback remain in **`docs/domain-cutover.md`**.
+**Do not change MX/TXT/email records or cancel Adobe** without explicit approval.
 
 ## Commands
 
@@ -34,7 +30,7 @@ DNS changes, then certificate/Enforce HTTPS, QA, and canonical/sitemap work.
 - Auth: GitHub CLI, signed in as `Toberg-tv`; credential helper configured.
 - Commit identity: `Toby Auberg <hi@kinemus.com>`.
 - Deploy: `.github/workflows/pages.yml` on every push to `main` (and manual dispatch).
-- Preview URL: <https://toberg-tv.github.io/toberg-site/> (301s to `toberg.tv`; use the custom domain once DNS is live).
+- Preview URL: <https://toberg-tv.github.io/toberg-site/> (301s to <https://toberg.tv/>).
 
 ## Domain cutover
 
@@ -52,14 +48,14 @@ DNS changes, then certificate/Enforce HTTPS, QA, and canonical/sitemap work.
 - **Templates:** `src/_includes/base.njk` (shell/header), `modules.njk` (recursive module
   renderer), `gallery.njk`; pages: `src/index.njk`, `src/projects/index.njk`,
   `src/project.njk` (paginated over `projects`), `src/bio-2.njk`, `src/404.njk`,
-  `src/robots.txt.njk`.
+  `src/robots.txt.njk`, `src/sitemap.xml.njk`.
 - **Image shortcode:** `{% picture key, alt, sizes, class, loading, fetchpriority %}` in
   `eleventy.config.js`, keyed by `src/_data/images.json`.
 - **Assets:** `src/assets/{css,js,fonts,img}` passthrough-copied to `_site/assets`.
 - **Pages deploy:** `.github/workflows/pages.yml` runs `npm ci` + `npm run build` on pushes
-  to `main`, using `PATH_PREFIX` from `actions/configure-pages` output (`/toberg-site/` for
-  project Pages), uploads `_site`, and deploys with `actions/deploy-pages`. Local dev/build
-  uses `/`.
+  to `main`, using `PATH_PREFIX` from `actions/configure-pages` output, uploads `_site`, and
+  deploys with `actions/deploy-pages`. With the custom domain, `base_path` is empty so the
+  build uses root URLs (`/assets/...`, `/pile/`); local dev/build also uses `/`.
 - **Path prefix:** `eleventy.config.js` reads `process.env.PATH_PREFIX`, registers
   `HtmlBasePlugin`, and returns `pathPrefix`. The plugin rewrites HTML URLs (`href`, `src`,
   `srcset`, etc.); CSS font URLs are relative (`../fonts/...`) because CSS is not processed.
@@ -83,8 +79,13 @@ DNS changes, then certificate/Enforce HTTPS, QA, and canonical/sitemap work.
   images, and JS only load when served over HTTP (`npm run dev` or `npm run preview`).
 - **Repo is public:** GitHub Free requires a public repo for Pages. The Pages site is also
   public; do not put secrets in the repo.
-- **Subpath URLs:** project Pages live under `/toberg-site/`. Keep new HTML URLs
-  root-absolute so `HtmlBasePlugin` can prefix them; use relative URLs inside CSS/JS.
+- **Root URLs:** with the custom domain, `base_path` is empty and the site uses `/`. Keep new
+  HTML URLs root-absolute so `HtmlBasePlugin` can still prefix them if `PATH_PREFIX` is set;
+  use relative URLs inside CSS/JS.
+- **Canonical/SEO:** `base.njk` emits `<link rel="canonical">` + `og:url` from
+  `site.baseUrl` (`https://toberg.tv`) and `page.url` (skipped on `/404.html`);
+  `src/sitemap.xml.njk` lists static routes + every project slug; `robots.txt.njk` points at
+  the sitemap. Keep `site.baseUrl` in sync if the canonical host changes.
 - **URLs:** project pages are `/<slug>/`; keep slugs identical to Adobe for continuity.
 
 ## Deferred (do not do without explicit user approval)
@@ -94,7 +95,6 @@ DNS changes, then certificate/Enforce HTTPS, QA, and canonical/sitemap work.
 
 ## Next work
 
-1. Finish the domain cutover per `docs/domain-cutover.md` (GitHub challenge TXT, DNS,
-   certificate, Enforce HTTPS, QA).
-2. Replace the two Adobe video placeholders with re-hosted embeds.
-3. After cutover: canonical tags, `sitemap.xml`, robots sitemap line, Search Console.
+1. Replace the two Adobe video placeholders with re-hosted embeds.
+2. Submit `https://toberg.tv/sitemap.xml` in Google Search Console (canonical tags, sitemap,
+   and the robots sitemap line are done).

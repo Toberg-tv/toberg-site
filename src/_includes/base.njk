@@ -10,6 +10,8 @@
   <meta property="og:title" content="{{ docTitle | escape }}">
   <meta property="og:description" content="{{ docDescription | escape }}">
   <meta property="og:type" content="website">
+  {% if page.url != '/404.html' %}<link rel="canonical" href="{{ site.baseUrl }}{{ page.url }}">
+  <meta property="og:url" content="{{ site.baseUrl }}{{ page.url }}">{% endif %}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="/assets/img/site/logo-120.png" sizes="120x120">
   <link rel="apple-touch-icon" href="/assets/img/site/logo-240.png">

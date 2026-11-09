@@ -1,21 +1,27 @@
 # Domain cutover: toberg.tv → GitHub Pages
 
-Status: approved, cutover in progress. This runbook is the durable record of the DNS
-baseline, target configuration, sequence, verification, and rollback.
+Status: **complete (2026-11-09)**. This runbook is the durable record of the DNS baseline,
+target configuration, sequence, verification, and rollback. Keep it for future reference and
+rollback.
 
-## Current progress (2026-11-09)
+## Completion (2026-11-09)
 
-- GitHub Pages custom domain is set to `toberg.tv`.
-- The workflow rebuild confirmed `actions/configure-pages` reports `base_path=''`; the
-  artifact uses root URLs (`/assets/...`, `/pile/`). The URL guard step passes.
-- `https://toberg-tv.github.io/toberg-site/` now 301s to `http://toberg.tv/` (still Adobe
-  until DNS changes).
-- **Waiting on:** GoDaddy DNS changes — replace the apex A record with the four GitHub IPs
-  (optional AAAA records), update the `www` CNAME to `toberg-tv.github.io`, and preserve
-  MX/TXT. Then verify DNS, wait for the Let's Encrypt certificate, and enable Enforce HTTPS.
-- Recommended: verify `toberg.tv` in GitHub profile Pages settings via the
-  `_github-pages-challenge-Toberg-tv` TXT record.
-- After HTTPS: post-cutover QA; then canonical tags + `sitemap.xml` + robots sitemap line.
+- GitHub Pages custom domain `toberg.tv` set and verified; repo domain shows `verified`.
+- GoDaddy DNS switched: apex `A` → the four GitHub Pages IPs; `www` `CNAME` →
+  `toberg-tv.github.io`; no AAAA records added (optional). MX, both SPF TXT records, the
+  Google verification TXT, the GitHub challenge TXT, and `_domainconnect` were left intact.
+- Let's Encrypt certificate approved for `toberg.tv` + `www.toberg.tv` (expires 2027-02-07);
+  **Enforce HTTPS** enabled.
+- Verified: `https://toberg.tv/` returns 200 with the new site; `http://` apex 301s to HTTPS
+  (allow ~10 min for any pre-enforcement edge cache to expire); `https://www.toberg.tv/` and
+  `http://www.toberg.tv/` 301 to `https://toberg.tv/`; the old `github.io/toberg-site/` URL
+  301s to the custom domain.
+- QA: all 12 project pages, `/`, `/projects/`, `/bio-2/`, `/robots.txt`, CSS/JS/fonts, and
+  responsive images return 200; unknown paths return the 404 page; `bufo`/`flail-wip`
+  placeholders render as expected; MX/SPF/verification records unchanged.
+- Remaining (not blocking): submit `sitemap.xml` in Google Search Console; replace the two
+  Adobe video placeholders. (Canonical tags, `sitemap.xml`, and the robots sitemap line are
+  now implemented.)
 
 ## Decisions
 
