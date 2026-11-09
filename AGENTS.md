@@ -1,11 +1,16 @@
 # AGENTS.md
 
-## Status: local static rebuild (domain untouched)
+## Status: GitHub Pages preview live (domain untouched)
 
-This repo is a local-only rebuild of the Adobe Portfolio site **toberg.tv** as a static
-Eleventy site. The live domain, DNS, Adobe account, and GitHub Pages are intentionally
-**not** configured yet. Do not add `CNAME`, DNS records, deploy workflows, or custom-domain
-settings until the user explicitly asks.
+This repo is a static rebuild of the Adobe Portfolio site **toberg.tv** as an Eleventy site.
+It is **public** and deploys a preview to GitHub Pages on every push to `main`:
+
+- Preview: <https://toberg-tv.github.io/toberg-site/>
+- Repository: <https://github.com/Toberg-tv/toberg-site>
+
+The live **toberg.tv** domain, DNS, Adobe account, and any custom domain are intentionally
+**not** configured. Do not add `CNAME`, DNS records, custom-domain settings, or deploy
+workflows for a custom domain until the user explicitly asks.
 
 ## Commands
 
@@ -29,6 +34,13 @@ settings until the user explicitly asks.
 - **Image shortcode:** `{% picture key, alt, sizes, class, loading, fetchpriority %}` in
   `eleventy.config.js`, keyed by `src/_data/images.json`.
 - **Assets:** `src/assets/{css,js,fonts,img}` passthrough-copied to `_site/assets`.
+- **Pages deploy:** `.github/workflows/pages.yml` runs `npm ci` + `npm run build` on pushes
+  to `main`, using `PATH_PREFIX` from `actions/configure-pages` output (`/toberg-site/` for
+  project Pages), uploads `_site`, and deploys with `actions/deploy-pages`. Local dev/build
+  uses `/`.
+- **Path prefix:** `eleventy.config.js` reads `process.env.PATH_PREFIX`, registers
+  `HtmlBasePlugin`, and returns `pathPrefix`. The plugin rewrites HTML URLs (`href`, `src`,
+  `srcset`, etc.); CSS font URLs are relative (`../fonts/...`) because CSS is not processed.
 - **Generated vs source:** `_raw/` and `_source/` are gitignored. Committed generated
   artifacts are `src/assets/img/**` and `src/_data/{projects,site,info,images}.json`.
 
@@ -47,12 +59,15 @@ settings until the user explicitly asks.
 - **`.nojekyll`** exists for future GitHub Pages; keep it.
 - **Never open `_site/index.html` via `file://`:** asset URLs are root-absolute, so CSS,
   images, and JS only load when served over HTTP (`npm run dev` or `npm run preview`).
+- **Repo is public:** GitHub Free requires a public repo for Pages. The Pages site is also
+  public; do not put secrets in the repo.
+- **Subpath URLs:** project Pages live under `/toberg-site/`. Keep new HTML URLs
+  root-absolute so `HtmlBasePlugin` can prefix them; use relative URLs inside CSS/JS.
 - **URLs:** project pages are `/<slug>/`; keep slugs identical to Adobe for continuity.
 
 ## Deferred (do not do without explicit user approval)
 
-- GitHub Pages repo/Actions setup
-- `CNAME`, custom domain, Enforce HTTPS
+- `CNAME`, custom domain, Enforce HTTPS for a custom domain
 - DNS changes (apex A / `www` CNAME), MX/TXT preservation
 - Cancelling Adobe Portfolio
 - Sitemap with absolute URLs (needs final domain)
@@ -60,5 +75,7 @@ settings until the user explicitly asks.
 ## Next work
 
 1. Replace the two Adobe video placeholders with re-hosted embeds.
-2. QA: all pages, mobile nav, embeds, image loading, Lighthouse.
-3. Only then: GitHub Pages deploy + domain cutover.
+2. Optional: preview-only `noindex` so the github.io URL isn't indexed while toberg.tv is canonical.
+3. Only then and on explicit approval: custom domain + DNS cutover (the workflow reads
+   `configure-pages` `base_path`, so the prefix drops to `/` automatically when a custom
+   domain becomes the Pages root).

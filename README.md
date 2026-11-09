@@ -1,8 +1,21 @@
-# TOBERG — local static rebuild
+# TOBERG — static rebuild
 
-A local-only, static rebuild of the Adobe Portfolio site **toberg.tv**, built with
-[Eleventy](https://www.11ty.dev/). The domain, DNS, Adobe account, and GitHub Pages are
-intentionally not configured yet.
+A static rebuild of the Adobe Portfolio site **toberg.tv**, built with
+[Eleventy](https://www.11ty.dev/).
+
+The **toberg.tv domain still points to the Adobe site**. This repository publishes a
+preview on GitHub Pages at **<https://toberg-tv.github.io/toberg-site/>**. No custom
+domain, DNS, or Adobe settings have been changed.
+
+## Live preview (GitHub Pages)
+
+**<https://toberg-tv.github.io/toberg-site/>**
+
+- The repository is **public**, which GitHub Free requires for Pages.
+- Every push to `main` builds and deploys via `.github/workflows/pages.yml`.
+- Project Pages serves from the `/toberg-site/` subpath, so CI builds with
+  `PATH_PREFIX=/toberg-site/`. Local `npm run dev` still serves at `/`.
+- Custom domain and toberg.tv cutover are intentionally deferred.
 
 ## Requirements
 
@@ -51,6 +64,7 @@ Open **http://localhost:8081**.
 | `npm run dev` | Dev server with live reload at http://localhost:8080 |
 | `npm run build` | Build the static site into `_site/` |
 | `npm run preview` | Serve the built `_site/` at http://localhost:8081 |
+| `$env:PATH_PREFIX='/toberg-site/'; npm run build` | Build for the GitHub Pages subpath |
 | `npm run extract` | Re-scrape Adobe pages into `src/_data/*.json` and `_raw/` |
 | `npm run images` | Regenerate responsive images and the image manifest |
 
@@ -61,6 +75,9 @@ Open **http://localhost:8081**.
 - **`/bio-2/`** — the INFO page.
 - **Each project page** — title, description, images, and external Vimeo/YouTube/framerate embeds.
 - **`/bufo/` and `/flail-wip/`** — intentional "being migrated from Adobe" video placeholders.
+
+On the **live preview**, every route is nested under `/toberg-site/` (for example
+`/toberg-site/pile/`). Local dev keeps the root paths shown above.
 
 ## About npm
 
