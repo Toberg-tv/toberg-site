@@ -1,7 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { HtmlBasePlugin } from '@11ty/eleventy';
 
 const MANIFEST_PATH = path.join('src', '_data', 'images.json');
+
+function normalizePathPrefix(value = '/') {
+  if (!value) return '/';
+  const trimmed = String(value).replace(/^\/+|\/+$/g, '');
+  return trimmed ? `/${trimmed}/` : '/';
+}
+
+const pathPrefix = normalizePathPrefix(process.env.PATH_PREFIX);
 
 function loadManifest() {
   try {
@@ -21,6 +30,8 @@ function escapeAttr(value = '') {
 
 export default function (eleventyConfig) {
   const images = loadManifest();
+
+  eleventyConfig.addPlugin(HtmlBasePlugin, { baseHref: pathPrefix });
 
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
   if (fs.existsSync('.nojekyll')) {
@@ -53,6 +64,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter('escapeAttr', escapeAttr);
 
   return {
+    pathPrefix,
     dir: {
       input: 'src',
       output: '_site',
