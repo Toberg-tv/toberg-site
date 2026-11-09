@@ -44,26 +44,12 @@ npm run dev
 Open **http://localhost:8080**. The dev server watches for changes and reloads the page.
 Press `Ctrl+C` in the terminal to stop it.
 
-## Preview the production build
-
-```powershell
-npm run build
-npm run preview
-```
-
-Open **http://localhost:8081**.
-
-> Do **not** double-click `_site/index.html`. The site uses root-absolute paths
-> (`/assets/...`), which only resolve when served over HTTP. Opening it via `file://`
-> loads no CSS or images (and makes the Vimeo icon render huge).
-
 ## Commands
 
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Dev server with live reload at http://localhost:8080 |
 | `npm run build` | Build the static site into `_site/` |
-| `npm run preview` | Serve the built `_site/` at http://localhost:8081 |
 | `$env:PATH_PREFIX='/toberg-site/'; npm run build` | Build for the GitHub Pages subpath |
 | `npm run extract` | Re-scrape Adobe pages into `src/_data/*.json` and `_raw/` |
 | `npm run images` | Regenerate responsive images and the image manifest |
@@ -78,10 +64,3 @@ Open **http://localhost:8081**.
 
 On the **live preview**, every route is nested under `/toberg-site/` (for example
 `/toberg-site/pile/`). Local dev keeps the root paths shown above.
-
-## About npm
-
-npm is the package manager that ships with Node.js. Think of `package.json` as a shopping
-list and `npm install` as the trip to the shop: it fetches everything the site needs.
-`npm run <name>` runs a shortcut defined in the `scripts` section of `package.json`, so
-`npm run dev` is just a convenient way to launch Eleventy's dev server.

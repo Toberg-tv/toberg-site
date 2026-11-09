@@ -1,16 +1,18 @@
 # AGENTS.md
 
-## Status: GitHub Pages preview live (domain untouched)
+## Status: GitHub Pages live; custom-domain cutover in progress
 
 This repo is a static rebuild of the Adobe Portfolio site **toberg.tv** as an Eleventy site.
-It is **public** and deploys a preview to GitHub Pages on every push to `main`:
+It is **public** and deploys to GitHub Pages on every push to `main`:
 
-- Preview: <https://toberg-tv.github.io/toberg-site/>
+- Preview (pre-cutover): <https://toberg-tv.github.io/toberg-site/>
 - Repository: <https://github.com/Toberg-tv/toberg-site>
+- Target live URL: <https://toberg.tv/> (cutover in progress)
 
-The live **toberg.tv** domain, DNS, Adobe account, and any custom domain are intentionally
-**not** configured. Do not add `CNAME`, DNS records, custom-domain settings, or deploy
-workflows for a custom domain until the user explicitly asks.
+The user has approved the custom-domain cutover. Follow **`docs/domain-cutover.md`** for the
+DNS baseline, target records, sequence, verification, and rollback. Until DNS is switched,
+`toberg.tv` still serves the Adobe site. **Do not change MX/TXT/email records or cancel
+Adobe** as part of the cutover.
 
 ## Commands
 
@@ -20,6 +22,22 @@ workflows for a custom domain until the user explicitly asks.
 - `npm run preview` — serve the built `_site/` over HTTP at http://localhost:8081
 - `npm run extract` — re-scrape Adobe pages into `src/_data/*.json` and download originals to `_raw/`
 - `npm run images` — regenerate responsive images + `src/_data/images.json` (uses sharp)
+
+## Git / GitHub
+
+- Repo: <https://github.com/Toberg-tv/toberg-site> — **public** (GitHub Free requires this for Pages).
+- Remote: `origin` over HTTPS; default branch `main`.
+- Auth: GitHub CLI, signed in as `Toberg-tv`; credential helper configured.
+- Commit identity: `Toby Auberg <hi@kinemus.com>`.
+- Deploy: `.github/workflows/pages.yml` on every push to `main` (and manual dispatch).
+- Preview: <https://toberg-tv.github.io/toberg-site/> (redirects to the custom domain once cutover completes).
+
+## Domain cutover
+
+- Runbook: [`docs/domain-cutover.md`](docs/domain-cutover.md) — DNS baseline, target records, sequence, rollback.
+- Canonical host: apex `toberg.tv`; `www` should redirect to apex.
+- DNS/registrar: GoDaddy. Preserve all MX/TXT/SPF records and the GitHub challenge TXT.
+- Do not cancel Adobe Portfolio until the new site is stable.
 
 ## Architecture
 
@@ -67,15 +85,12 @@ workflows for a custom domain until the user explicitly asks.
 
 ## Deferred (do not do without explicit user approval)
 
-- `CNAME`, custom domain, Enforce HTTPS for a custom domain
-- DNS changes (apex A / `www` CNAME), MX/TXT preservation
 - Cancelling Adobe Portfolio
-- Sitemap with absolute URLs (needs final domain)
+- Removing or changing MX / TXT / email records
 
 ## Next work
 
-1. Replace the two Adobe video placeholders with re-hosted embeds.
-2. Optional: preview-only `noindex` so the github.io URL isn't indexed while toberg.tv is canonical.
-3. Only then and on explicit approval: custom domain + DNS cutover (the workflow reads
-   `configure-pages` `base_path`, so the prefix drops to `/` automatically when a custom
-   domain becomes the Pages root).
+1. Finish the domain cutover per `docs/domain-cutover.md` (GitHub challenge TXT, DNS,
+   certificate, Enforce HTTPS, QA).
+2. Replace the two Adobe video placeholders with re-hosted embeds.
+3. After cutover: canonical tags, `sitemap.xml`, robots sitemap line, Search Console.

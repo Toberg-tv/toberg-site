@@ -34,8 +34,28 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
 
+      - name: Show Pages base path
+        run: echo "Pages base_path='${{ steps.pages.outputs.base_path }}'"
+
       - name: Build
         run: npm run build
+        env:
+          PATH_PREFIX: ${{ steps.pages.outputs.base_path }}/
+
+      - name: Verify built URLs
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const raw = process.env.PATH_PREFIX || '/';
+          const prefix = raw.endsWith('/') ? raw : raw + '/';
+          const expected = `href="${prefix}assets/css/style.css"`;
+          const html = fs.readFileSync('_site/index.html', 'utf8');
+          if (!html.includes(expected)) {
+            console.error('Expected ' + expected + ' in _site/index.html');
+            process.exit(1);
+          }
+          console.log('Verified ' + expected);
+          NODE
         env:
           PATH_PREFIX: ${{ steps.pages.outputs.base_path }}/
 
