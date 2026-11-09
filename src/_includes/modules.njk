@@ -1,0 +1,48 @@
+{% macro renderModule(mod) %}
+  {% if mod.type == 'image' %}
+    <figure class="module module-image{% if not mod.float or mod.float == 'center' %} align-center{% elif mod.float == 'left' %} align-left{% elif mod.float == 'right' %} align-right{% endif %}"{% if mod.width or mod.paddingTop or mod.paddingBottom %} style="{% if mod.width %}width:{{ mod.width }}%;{% endif %}{% if mod.paddingTop %}padding-top:{{ mod.paddingTop }}px;{% endif %}{% if mod.paddingBottom %}padding-bottom:{{ mod.paddingBottom }}px;{% endif %}"{% endif %}>
+      {% picture mod.key, mod.alt, "(max-width: 932px) 100vw, 90vw", "module-img", "lazy" %}
+      {% if mod.caption %}<figcaption class="module-caption">{{ mod.caption }}</figcaption>{% endif %}
+    </figure>
+  {% elif mod.type == 'text' %}
+    <div class="module module-text"{% if mod.width or mod.maxWidth or mod.paddingTop or mod.paddingBottom %} style="{% if mod.width %}width:{{ mod.width }}%;{% endif %}{% if mod.maxWidth %}max-width:{{ mod.maxWidth }}px;{% endif %}{% if mod.paddingTop %}padding-top:{{ mod.paddingTop }}px;{% endif %}{% if mod.paddingBottom %}padding-bottom:{{ mod.paddingBottom }}px;{% endif %}"{% endif %}>{{ mod.html | safe }}</div>
+  {% elif mod.type == 'embed' %}
+    <div class="module module-embed"{% if mod.width %} style="width:{{ mod.width }}%;"{% endif %}>
+      <div class="embed-dimensions" style="max-width:{{ mod.maxWidth or 1920 }}px;">
+        <div class="embed-ratio" style="padding-bottom:{{ mod.aspect or 56.25 }}%;">
+          {% if mod.provider == 'adobe' %}
+            <div class="video-placeholder">
+              <p>This video is being migrated from Adobe.</p>
+              <a href="{{ site.vimeo }}" target="_blank" rel="noopener">Watch on Vimeo</a>
+            </div>
+          {% else %}
+            <iframe src="{{ mod.src }}" title="{{ mod.provider }} video" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% elif mod.type == 'media_collection' %}
+    <div class="module module-media-collection">
+      <div class="media-grid">
+        {% for item in mod.items %}
+          <div class="media-item">
+            {% picture item.key, item.alt, "(max-width: 540px) 100vw, (max-width: 932px) 50vw, 30vw", "media-img", "lazy" %}
+            {% if item.caption %}<div class="media-caption">{{ item.caption }}</div>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% elif mod.type == 'row' %}
+    <div class="module module-row valign-{{ mod.valign }}">
+      {% for child in mod.children %}
+        <div class="row-child"{% if child.flex %} style="flex:{{ child.flex }};"{% endif %}>{{ renderModules(child.modules) }}</div>
+      {% endfor %}
+    </div>
+  {% elif mod.type == 'caption' %}
+    <div class="module module-caption-container">{{ mod.html | safe }}</div>
+  {% endif %}
+{% endmacro %}
+
+{% macro renderModules(mods) %}
+  {% for mod in mods %}{{ renderModule(mod) }}{% endfor %}
+{% endmacro %}

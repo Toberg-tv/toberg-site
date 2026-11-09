@@ -1,0 +1,2773 @@
+{
+  "reel-2020/cover": {
+    "key": "reel-2020/cover",
+    "width": 1200,
+    "height": 938,
+    "aspect": 1.2793,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/reel-2020/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/reel-2020/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/reel-2020/cover-1200.webp",
+          "width": 1200,
+          "height": 938
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/reel-2020/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/reel-2020/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/reel-2020/cover-1200.jpg",
+          "width": 1200,
+          "height": 938
+        }
+      ]
+    }
+  },
+  "flail-wip/cover": {
+    "key": "flail-wip/cover",
+    "width": 1200,
+    "height": 938,
+    "aspect": 1.2793,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/flail-wip/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/flail-wip/cover-1200.webp",
+          "width": 1200,
+          "height": 938
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/flail-wip/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/flail-wip/cover-1200.jpg",
+          "width": 1200,
+          "height": 938
+        }
+      ]
+    }
+  },
+  "flail-wip/img-01": {
+    "key": "flail-wip/img-01",
+    "width": 838,
+    "height": 559,
+    "aspect": 1.4991,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/img-01-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/assets/img/flail-wip/img-01-838.webp",
+          "width": 838,
+          "height": 559
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/img-01-480.png",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/assets/img/flail-wip/img-01-838.png",
+          "width": 838,
+          "height": 559
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-01-01": {
+    "key": "flail-wip/mc-01-01",
+    "width": 1680,
+    "height": 924,
+    "aspect": 1.8182,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-480.webp",
+          "width": 480,
+          "height": 264
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-960.webp",
+          "width": 960,
+          "height": 528
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-1440.webp",
+          "width": 1440,
+          "height": 792
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-1680.webp",
+          "width": 1680,
+          "height": 924
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-480.jpg",
+          "width": 480,
+          "height": 264
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-960.jpg",
+          "width": 960,
+          "height": 528
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-1440.jpg",
+          "width": 1440,
+          "height": 792
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-01-1680.jpg",
+          "width": 1680,
+          "height": 924
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-01-02": {
+    "key": "flail-wip/mc-01-02",
+    "width": 1200,
+    "height": 652,
+    "aspect": 1.8405,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-02-480.webp",
+          "width": 480,
+          "height": 261
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-02-960.webp",
+          "width": 960,
+          "height": 522
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-02-1200.webp",
+          "width": 1200,
+          "height": 652
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-02-480.png",
+          "width": 480,
+          "height": 261
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-02-960.png",
+          "width": 960,
+          "height": 522
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-02-1200.png",
+          "width": 1200,
+          "height": 652
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-01-03": {
+    "key": "flail-wip/mc-01-03",
+    "width": 815,
+    "height": 470,
+    "aspect": 1.734,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-03-480.webp",
+          "width": 480,
+          "height": 277
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-03-815.webp",
+          "width": 815,
+          "height": 470
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-03-480.jpg",
+          "width": 480,
+          "height": 277
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-03-815.jpg",
+          "width": 815,
+          "height": 470
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-01-04": {
+    "key": "flail-wip/mc-01-04",
+    "width": 1405,
+    "height": 798,
+    "aspect": 1.7607,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-04-480.webp",
+          "width": 480,
+          "height": 273
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-04-960.webp",
+          "width": 960,
+          "height": 545
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-04-1405.webp",
+          "width": 1405,
+          "height": 798
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-01-04-480.png",
+          "width": 480,
+          "height": 273
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-04-960.png",
+          "width": 960,
+          "height": 545
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-01-04-1405.png",
+          "width": 1405,
+          "height": 798
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-02-01": {
+    "key": "flail-wip/mc-02-01",
+    "width": 278,
+    "height": 395,
+    "aspect": 0.7038,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-02-01-278.webp",
+          "width": 278,
+          "height": 395
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-02-01-278.jpg",
+          "width": 278,
+          "height": 395
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-02-02": {
+    "key": "flail-wip/mc-02-02",
+    "width": 595,
+    "height": 754,
+    "aspect": 0.7891,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-02-02-480.webp",
+          "width": 480,
+          "height": 608
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-02-02-595.webp",
+          "width": 595,
+          "height": 754
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-02-02-480.jpg",
+          "width": 480,
+          "height": 608
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-02-02-595.jpg",
+          "width": 595,
+          "height": 754
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-03-01": {
+    "key": "flail-wip/mc-03-01",
+    "width": 557,
+    "height": 490,
+    "aspect": 1.1367,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-01-480.webp",
+          "width": 480,
+          "height": 422
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-01-557.webp",
+          "width": 557,
+          "height": 490
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-01-480.jpg",
+          "width": 480,
+          "height": 422
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-01-557.jpg",
+          "width": 557,
+          "height": 490
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-03-02": {
+    "key": "flail-wip/mc-03-02",
+    "width": 867,
+    "height": 675,
+    "aspect": 1.2844,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-02-480.webp",
+          "width": 480,
+          "height": 374
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-02-867.webp",
+          "width": 867,
+          "height": 675
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-02-480.png",
+          "width": 480,
+          "height": 374
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-02-867.png",
+          "width": 867,
+          "height": 675
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-03-03": {
+    "key": "flail-wip/mc-03-03",
+    "width": 907,
+    "height": 399,
+    "aspect": 2.2732,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-03-480.webp",
+          "width": 480,
+          "height": 211
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-03-907.webp",
+          "width": 907,
+          "height": 399
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-03-480.png",
+          "width": 480,
+          "height": 211
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-03-907.png",
+          "width": 907,
+          "height": 399
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-03-04": {
+    "key": "flail-wip/mc-03-04",
+    "width": 619,
+    "height": 351,
+    "aspect": 1.7635,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-04-480.webp",
+          "width": 480,
+          "height": 272
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-04-619.webp",
+          "width": 619,
+          "height": 351
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-04-480.png",
+          "width": 480,
+          "height": 272
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-04-619.png",
+          "width": 619,
+          "height": 351
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-03-05": {
+    "key": "flail-wip/mc-03-05",
+    "width": 1421,
+    "height": 817,
+    "aspect": 1.7393,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-05-480.webp",
+          "width": 480,
+          "height": 276
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-05-960.webp",
+          "width": 960,
+          "height": 552
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-05-1421.webp",
+          "width": 1421,
+          "height": 817
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-03-05-480.png",
+          "width": 480,
+          "height": 276
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-05-960.png",
+          "width": 960,
+          "height": 552
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-03-05-1421.png",
+          "width": 1421,
+          "height": 817
+        }
+      ]
+    }
+  },
+  "flail-wip/img-02": {
+    "key": "flail-wip/img-02",
+    "width": 1920,
+    "height": 2716,
+    "aspect": 0.7069,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/img-02-480.webp",
+          "width": 480,
+          "height": 679
+        },
+        {
+          "src": "/assets/img/flail-wip/img-02-960.webp",
+          "width": 960,
+          "height": 1358
+        },
+        {
+          "src": "/assets/img/flail-wip/img-02-1440.webp",
+          "width": 1440,
+          "height": 2037
+        },
+        {
+          "src": "/assets/img/flail-wip/img-02-1920.webp",
+          "width": 1920,
+          "height": 2716
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/img-02-480.jpg",
+          "width": 480,
+          "height": 679
+        },
+        {
+          "src": "/assets/img/flail-wip/img-02-960.jpg",
+          "width": 960,
+          "height": 1358
+        },
+        {
+          "src": "/assets/img/flail-wip/img-02-1440.jpg",
+          "width": 1440,
+          "height": 2037
+        },
+        {
+          "src": "/assets/img/flail-wip/img-02-1920.jpg",
+          "width": 1920,
+          "height": 2716
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-04-01": {
+    "key": "flail-wip/mc-04-01",
+    "width": 1920,
+    "height": 1417,
+    "aspect": 1.355,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-480.webp",
+          "width": 480,
+          "height": 354
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-960.webp",
+          "width": 960,
+          "height": 709
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-1440.webp",
+          "width": 1440,
+          "height": 1063
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-1920.webp",
+          "width": 1920,
+          "height": 1417
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-480.jpg",
+          "width": 480,
+          "height": 354
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-960.jpg",
+          "width": 960,
+          "height": 709
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-1440.jpg",
+          "width": 1440,
+          "height": 1063
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-01-1920.jpg",
+          "width": 1920,
+          "height": 1417
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-04-02": {
+    "key": "flail-wip/mc-04-02",
+    "width": 1920,
+    "height": 1417,
+    "aspect": 1.355,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-480.webp",
+          "width": 480,
+          "height": 354
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-960.webp",
+          "width": 960,
+          "height": 709
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-1440.webp",
+          "width": 1440,
+          "height": 1063
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-1920.webp",
+          "width": 1920,
+          "height": 1417
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-480.jpg",
+          "width": 480,
+          "height": 354
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-960.jpg",
+          "width": 960,
+          "height": 709
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-1440.jpg",
+          "width": 1440,
+          "height": 1063
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-04-02-1920.jpg",
+          "width": 1920,
+          "height": 1417
+        }
+      ]
+    }
+  },
+  "flail-wip/img-03": {
+    "key": "flail-wip/img-03",
+    "width": 1920,
+    "height": 1031,
+    "aspect": 1.8623,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/img-03-480.webp",
+          "width": 480,
+          "height": 258
+        },
+        {
+          "src": "/assets/img/flail-wip/img-03-960.webp",
+          "width": 960,
+          "height": 516
+        },
+        {
+          "src": "/assets/img/flail-wip/img-03-1440.webp",
+          "width": 1440,
+          "height": 773
+        },
+        {
+          "src": "/assets/img/flail-wip/img-03-1920.webp",
+          "width": 1920,
+          "height": 1031
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/img-03-480.jpg",
+          "width": 480,
+          "height": 258
+        },
+        {
+          "src": "/assets/img/flail-wip/img-03-960.jpg",
+          "width": 960,
+          "height": 516
+        },
+        {
+          "src": "/assets/img/flail-wip/img-03-1440.jpg",
+          "width": 1440,
+          "height": 773
+        },
+        {
+          "src": "/assets/img/flail-wip/img-03-1920.jpg",
+          "width": 1920,
+          "height": 1031
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-05-01": {
+    "key": "flail-wip/mc-05-01",
+    "width": 1448,
+    "height": 1154,
+    "aspect": 1.2548,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-480.webp",
+          "width": 480,
+          "height": 383
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-960.webp",
+          "width": 960,
+          "height": 765
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-1440.webp",
+          "width": 1440,
+          "height": 1148
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-1448.webp",
+          "width": 1448,
+          "height": 1154
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-480.png",
+          "width": 480,
+          "height": 383
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-960.png",
+          "width": 960,
+          "height": 765
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-1440.png",
+          "width": 1440,
+          "height": 1148
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-01-1448.png",
+          "width": 1448,
+          "height": 1154
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-05-02": {
+    "key": "flail-wip/mc-05-02",
+    "width": 1646,
+    "height": 1442,
+    "aspect": 1.1415,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-480.webp",
+          "width": 480,
+          "height": 421
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-960.webp",
+          "width": 960,
+          "height": 841
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-1440.webp",
+          "width": 1440,
+          "height": 1262
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-1646.webp",
+          "width": 1646,
+          "height": 1442
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-480.png",
+          "width": 480,
+          "height": 421
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-960.png",
+          "width": 960,
+          "height": 841
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-1440.png",
+          "width": 1440,
+          "height": 1262
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-05-02-1646.png",
+          "width": 1646,
+          "height": 1442
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-06-01": {
+    "key": "flail-wip/mc-06-01",
+    "width": 414,
+    "height": 297,
+    "aspect": 1.3939,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-01-414.webp",
+          "width": 414,
+          "height": 297
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-01-414.png",
+          "width": 414,
+          "height": 297
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-06-02": {
+    "key": "flail-wip/mc-06-02",
+    "width": 475,
+    "height": 288,
+    "aspect": 1.6493,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-02-475.webp",
+          "width": 475,
+          "height": 288
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-02-475.png",
+          "width": 475,
+          "height": 288
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-06-03": {
+    "key": "flail-wip/mc-06-03",
+    "width": 507,
+    "height": 300,
+    "aspect": 1.69,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-03-480.webp",
+          "width": 480,
+          "height": 284
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-06-03-507.webp",
+          "width": 507,
+          "height": 300
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-03-480.png",
+          "width": 480,
+          "height": 284
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-06-03-507.png",
+          "width": 507,
+          "height": 300
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-06-04": {
+    "key": "flail-wip/mc-06-04",
+    "width": 371,
+    "height": 330,
+    "aspect": 1.1242,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-04-371.webp",
+          "width": 371,
+          "height": 330
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-04-371.png",
+          "width": 371,
+          "height": 330
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-06-05": {
+    "key": "flail-wip/mc-06-05",
+    "width": 409,
+    "height": 324,
+    "aspect": 1.2623,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-05-409.webp",
+          "width": 409,
+          "height": 324
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-05-409.png",
+          "width": 409,
+          "height": 324
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-06-06": {
+    "key": "flail-wip/mc-06-06",
+    "width": 260,
+    "height": 308,
+    "aspect": 0.8442,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-06-260.webp",
+          "width": 260,
+          "height": 308
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-06-06-260.png",
+          "width": 260,
+          "height": 308
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-07-01": {
+    "key": "flail-wip/mc-07-01",
+    "width": 1556,
+    "height": 1142,
+    "aspect": 1.3625,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-480.webp",
+          "width": 480,
+          "height": 352
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-960.webp",
+          "width": 960,
+          "height": 705
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-1440.webp",
+          "width": 1440,
+          "height": 1057
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-1556.webp",
+          "width": 1556,
+          "height": 1142
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-480.png",
+          "width": 480,
+          "height": 352
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-960.png",
+          "width": 960,
+          "height": 705
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-1440.png",
+          "width": 1440,
+          "height": 1057
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-01-1556.png",
+          "width": 1556,
+          "height": 1142
+        }
+      ]
+    }
+  },
+  "flail-wip/mc-07-02": {
+    "key": "flail-wip/mc-07-02",
+    "width": 1274,
+    "height": 976,
+    "aspect": 1.3053,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/mc-07-02-480.webp",
+          "width": 480,
+          "height": 368
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-02-960.webp",
+          "width": 960,
+          "height": 735
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-02-1274.webp",
+          "width": 1274,
+          "height": 976
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/mc-07-02-480.png",
+          "width": 480,
+          "height": 368
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-02-960.png",
+          "width": 960,
+          "height": 735
+        },
+        {
+          "src": "/assets/img/flail-wip/mc-07-02-1274.png",
+          "width": 1274,
+          "height": 976
+        }
+      ]
+    }
+  },
+  "flail-wip/img-04": {
+    "key": "flail-wip/img-04",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/flail-wip/img-04-480.webp",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/assets/img/flail-wip/img-04-960.webp",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/flail-wip/img-04-1440.webp",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "src": "/assets/img/flail-wip/img-04-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/flail-wip/img-04-480.jpg",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/assets/img/flail-wip/img-04-960.jpg",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/flail-wip/img-04-1440.jpg",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "src": "/assets/img/flail-wip/img-04-1920.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  },
+  "pile/cover": {
+    "key": "pile/cover",
+    "width": 931,
+    "height": 728,
+    "aspect": 1.2788,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/pile/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/pile/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/pile/cover-931.webp",
+          "width": 931,
+          "height": 728
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/pile/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/pile/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/pile/cover-931.jpg",
+          "width": 931,
+          "height": 728
+        }
+      ]
+    }
+  },
+  "pile/img-01": {
+    "key": "pile/img-01",
+    "width": 1920,
+    "height": 1992,
+    "aspect": 0.9639,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/pile/img-01-480.webp",
+          "width": 480,
+          "height": 498
+        },
+        {
+          "src": "/assets/img/pile/img-01-960.webp",
+          "width": 960,
+          "height": 996
+        },
+        {
+          "src": "/assets/img/pile/img-01-1440.webp",
+          "width": 1440,
+          "height": 1494
+        },
+        {
+          "src": "/assets/img/pile/img-01-1920.webp",
+          "width": 1920,
+          "height": 1992
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/pile/img-01-480.jpg",
+          "width": 480,
+          "height": 498
+        },
+        {
+          "src": "/assets/img/pile/img-01-960.jpg",
+          "width": 960,
+          "height": 996
+        },
+        {
+          "src": "/assets/img/pile/img-01-1440.jpg",
+          "width": 1440,
+          "height": 1494
+        },
+        {
+          "src": "/assets/img/pile/img-01-1920.jpg",
+          "width": 1920,
+          "height": 1992
+        }
+      ]
+    }
+  },
+  "causims-1/cover": {
+    "key": "causims-1/cover",
+    "width": 1200,
+    "height": 939,
+    "aspect": 1.278,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/causims-1/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/causims-1/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/causims-1/cover-1200.webp",
+          "width": 1200,
+          "height": 939
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/causims-1/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/causims-1/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/causims-1/cover-1200.jpg",
+          "width": 1200,
+          "height": 939
+        }
+      ]
+    }
+  },
+  "causims-1/img-01": {
+    "key": "causims-1/img-01",
+    "width": 1920,
+    "height": 1719,
+    "aspect": 1.1169,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/causims-1/img-01-480.webp",
+          "width": 480,
+          "height": 430
+        },
+        {
+          "src": "/assets/img/causims-1/img-01-960.webp",
+          "width": 960,
+          "height": 860
+        },
+        {
+          "src": "/assets/img/causims-1/img-01-1440.webp",
+          "width": 1440,
+          "height": 1289
+        },
+        {
+          "src": "/assets/img/causims-1/img-01-1920.webp",
+          "width": 1920,
+          "height": 1719
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/causims-1/img-01-480.jpg",
+          "width": 480,
+          "height": 430
+        },
+        {
+          "src": "/assets/img/causims-1/img-01-960.jpg",
+          "width": 960,
+          "height": 860
+        },
+        {
+          "src": "/assets/img/causims-1/img-01-1440.jpg",
+          "width": 1440,
+          "height": 1289
+        },
+        {
+          "src": "/assets/img/causims-1/img-01-1920.jpg",
+          "width": 1920,
+          "height": 1719
+        }
+      ]
+    }
+  },
+  "seratox/cover": {
+    "key": "seratox/cover",
+    "width": 920,
+    "height": 720,
+    "aspect": 1.2778,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/seratox/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/seratox/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/seratox/cover-920.webp",
+          "width": 920,
+          "height": 720
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/seratox/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/seratox/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/seratox/cover-920.jpg",
+          "width": 920,
+          "height": 720
+        }
+      ]
+    }
+  },
+  "seratox/img-01": {
+    "key": "seratox/img-01",
+    "width": 900,
+    "height": 1261,
+    "aspect": 0.7137,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/seratox/img-01-480.webp",
+          "width": 480,
+          "height": 673
+        },
+        {
+          "src": "/assets/img/seratox/img-01-900.webp",
+          "width": 900,
+          "height": 1261
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/seratox/img-01-480.jpg",
+          "width": 480,
+          "height": 673
+        },
+        {
+          "src": "/assets/img/seratox/img-01-900.jpg",
+          "width": 900,
+          "height": 1261
+        }
+      ]
+    }
+  },
+  "seratox/img-02": {
+    "key": "seratox/img-02",
+    "width": 900,
+    "height": 1261,
+    "aspect": 0.7137,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/seratox/img-02-480.webp",
+          "width": 480,
+          "height": 673
+        },
+        {
+          "src": "/assets/img/seratox/img-02-900.webp",
+          "width": 900,
+          "height": 1261
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/seratox/img-02-480.jpg",
+          "width": 480,
+          "height": 673
+        },
+        {
+          "src": "/assets/img/seratox/img-02-900.jpg",
+          "width": 900,
+          "height": 1261
+        }
+      ]
+    }
+  },
+  "into-yourself-fall-anish-kapoors-vr-experience/cover": {
+    "key": "into-yourself-fall-anish-kapoors-vr-experience/cover",
+    "width": 920,
+    "height": 720,
+    "aspect": 1.2778,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/cover-920.webp",
+          "width": 920,
+          "height": 720
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/cover-920.jpg",
+          "width": 920,
+          "height": 720
+        }
+      ]
+    }
+  },
+  "into-yourself-fall-anish-kapoors-vr-experience/img-01": {
+    "key": "into-yourself-fall-anish-kapoors-vr-experience/img-01",
+    "width": 1920,
+    "height": 2159,
+    "aspect": 0.8893,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-480.webp",
+          "width": 480,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-960.webp",
+          "width": 960,
+          "height": 1080
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-1440.webp",
+          "width": 1440,
+          "height": 1619
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-1920.webp",
+          "width": 1920,
+          "height": 2159
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-480.jpg",
+          "width": 480,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-960.jpg",
+          "width": 960,
+          "height": 1080
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-1440.jpg",
+          "width": 1440,
+          "height": 1619
+        },
+        {
+          "src": "/assets/img/into-yourself-fall-anish-kapoors-vr-experience/img-01-1920.jpg",
+          "width": 1920,
+          "height": 2159
+        }
+      ]
+    }
+  },
+  "luhndonon-looped/cover": {
+    "key": "luhndonon-looped/cover",
+    "width": 920,
+    "height": 720,
+    "aspect": 1.2778,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/luhndonon-looped/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/cover-920.webp",
+          "width": 920,
+          "height": 720
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/luhndonon-looped/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/cover-920.jpg",
+          "width": 920,
+          "height": 720
+        }
+      ]
+    }
+  },
+  "luhndonon-looped/img-01": {
+    "key": "luhndonon-looped/img-01",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-480.webp",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-960.webp",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-1440.webp",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-480.jpg",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-960.jpg",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-1440.jpg",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "src": "/assets/img/luhndonon-looped/img-01-1920.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  },
+  "funkjetdie-sweetnerve/cover": {
+    "key": "funkjetdie-sweetnerve/cover",
+    "width": 1200,
+    "height": 939,
+    "aspect": 1.278,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/funkjetdie-sweetnerve/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/funkjetdie-sweetnerve/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/funkjetdie-sweetnerve/cover-1200.webp",
+          "width": 1200,
+          "height": 939
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/funkjetdie-sweetnerve/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/funkjetdie-sweetnerve/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/funkjetdie-sweetnerve/cover-1200.jpg",
+          "width": 1200,
+          "height": 939
+        }
+      ]
+    }
+  },
+  "bufo/cover": {
+    "key": "bufo/cover",
+    "width": 432,
+    "height": 337,
+    "aspect": 1.2819,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/bufo/cover-400.webp",
+          "width": 400,
+          "height": 312
+        },
+        {
+          "src": "/assets/img/bufo/cover-432.webp",
+          "width": 432,
+          "height": 337
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/bufo/cover-400.jpg",
+          "width": 400,
+          "height": 312
+        },
+        {
+          "src": "/assets/img/bufo/cover-432.jpg",
+          "width": 432,
+          "height": 337
+        }
+      ]
+    }
+  },
+  "bufo/img-01": {
+    "key": "bufo/img-01",
+    "width": 900,
+    "height": 1261,
+    "aspect": 0.7137,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/bufo/img-01-480.webp",
+          "width": 480,
+          "height": 673
+        },
+        {
+          "src": "/assets/img/bufo/img-01-900.webp",
+          "width": 900,
+          "height": 1261
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/bufo/img-01-480.jpg",
+          "width": 480,
+          "height": 673
+        },
+        {
+          "src": "/assets/img/bufo/img-01-900.jpg",
+          "width": 900,
+          "height": 1261
+        }
+      ]
+    }
+  },
+  "bears-on-stairs-1/cover": {
+    "key": "bears-on-stairs-1/cover",
+    "width": 431,
+    "height": 338,
+    "aspect": 1.2751,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/bears-on-stairs-1/cover-400.webp",
+          "width": 400,
+          "height": 314
+        },
+        {
+          "src": "/assets/img/bears-on-stairs-1/cover-431.webp",
+          "width": 431,
+          "height": 338
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/bears-on-stairs-1/cover-400.jpg",
+          "width": 400,
+          "height": 314
+        },
+        {
+          "src": "/assets/img/bears-on-stairs-1/cover-431.jpg",
+          "width": 431,
+          "height": 338
+        }
+      ]
+    }
+  },
+  "bears-on-stairs-1/img-01": {
+    "key": "bears-on-stairs-1/img-01",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7778,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/bears-on-stairs-1/img-01-480.webp",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/assets/img/bears-on-stairs-1/img-01-960.webp",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/bears-on-stairs-1/img-01-1280.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/bears-on-stairs-1/img-01-480.jpg",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/assets/img/bears-on-stairs-1/img-01-960.jpg",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "src": "/assets/img/bears-on-stairs-1/img-01-1280.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    }
+  },
+  "the-infamous-chalk-girl/cover": {
+    "key": "the-infamous-chalk-girl/cover",
+    "width": 1200,
+    "height": 939,
+    "aspect": 1.278,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/cover-400.webp",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/cover-800.webp",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/cover-1200.webp",
+          "width": 1200,
+          "height": 939
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/cover-400.jpg",
+          "width": 400,
+          "height": 313
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/cover-800.jpg",
+          "width": 800,
+          "height": 626
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/cover-1200.jpg",
+          "width": 1200,
+          "height": 939
+        }
+      ]
+    }
+  },
+  "the-infamous-chalk-girl/img-01": {
+    "key": "the-infamous-chalk-girl/img-01",
+    "width": 1920,
+    "height": 650,
+    "aspect": 2.9538,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-480.webp",
+          "width": 480,
+          "height": 163
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-960.webp",
+          "width": 960,
+          "height": 325
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-1440.webp",
+          "width": 1440,
+          "height": 488
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-1920.webp",
+          "width": 1920,
+          "height": 650
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-480.jpg",
+          "width": 480,
+          "height": 163
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-960.jpg",
+          "width": 960,
+          "height": 325
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-1440.jpg",
+          "width": 1440,
+          "height": 488
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-01-1920.jpg",
+          "width": 1920,
+          "height": 650
+        }
+      ]
+    }
+  },
+  "the-infamous-chalk-girl/img-02": {
+    "key": "the-infamous-chalk-girl/img-02",
+    "width": 1920,
+    "height": 82,
+    "aspect": 23.4146,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-480.webp",
+          "width": 480,
+          "height": 21
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-960.webp",
+          "width": 960,
+          "height": 41
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-1440.webp",
+          "width": 1440,
+          "height": 62
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-1920.webp",
+          "width": 1920,
+          "height": 82
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-480.jpg",
+          "width": 480,
+          "height": 21
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-960.jpg",
+          "width": 960,
+          "height": 41
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-1440.jpg",
+          "width": 1440,
+          "height": 62
+        },
+        {
+          "src": "/assets/img/the-infamous-chalk-girl/img-02-1920.jpg",
+          "width": 1920,
+          "height": 82
+        }
+      ]
+    }
+  },
+  "gapanosh/cover": {
+    "key": "gapanosh/cover",
+    "width": 431,
+    "height": 338,
+    "aspect": 1.2751,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/cover-400.webp",
+          "width": 400,
+          "height": 314
+        },
+        {
+          "src": "/assets/img/gapanosh/cover-431.webp",
+          "width": 431,
+          "height": 338
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/cover-400.jpg",
+          "width": 400,
+          "height": 314
+        },
+        {
+          "src": "/assets/img/gapanosh/cover-431.jpg",
+          "width": 431,
+          "height": 338
+        }
+      ]
+    }
+  },
+  "gapanosh/img-01": {
+    "key": "gapanosh/img-01",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-01-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-01-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-01-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-01-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-01-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-01-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-02": {
+    "key": "gapanosh/img-02",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-02-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-02-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-02-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-02-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-02-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-02-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-03": {
+    "key": "gapanosh/img-03",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-03-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-03-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-03-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-03-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-03-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-03-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-04": {
+    "key": "gapanosh/img-04",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-04-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-04-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-04-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-04-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-04-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-04-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-05": {
+    "key": "gapanosh/img-05",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-05-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-05-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-05-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-05-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-05-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-05-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-06": {
+    "key": "gapanosh/img-06",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-06-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-06-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-06-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-06-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-06-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-06-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-07": {
+    "key": "gapanosh/img-07",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-07-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-07-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-07-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-07-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-07-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-07-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-08": {
+    "key": "gapanosh/img-08",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-08-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-08-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-08-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-08-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-08-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-08-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-09": {
+    "key": "gapanosh/img-09",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-09-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-09-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-09-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-09-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-09-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-09-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-10": {
+    "key": "gapanosh/img-10",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-10-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-10-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-10-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-10-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-10-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-10-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-11": {
+    "key": "gapanosh/img-11",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-11-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-11-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-11-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-11-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-11-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-11-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-12": {
+    "key": "gapanosh/img-12",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-12-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-12-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-12-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-12-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-12-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-12-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-13": {
+    "key": "gapanosh/img-13",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-13-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-13-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-13-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-13-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-13-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-13-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-14": {
+    "key": "gapanosh/img-14",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-14-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-14-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-14-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-14-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-14-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-14-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-15": {
+    "key": "gapanosh/img-15",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-15-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-15-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-15-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-15-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-15-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-15-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "gapanosh/img-16": {
+    "key": "gapanosh/img-16",
+    "width": 1024,
+    "height": 965,
+    "aspect": 1.0611,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/gapanosh/img-16-480.webp",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-16-960.webp",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-16-1024.webp",
+          "width": 1024,
+          "height": 965
+        }
+      ],
+      "fallbackType": "jpeg",
+      "fallback": [
+        {
+          "src": "/assets/img/gapanosh/img-16-480.jpg",
+          "width": 480,
+          "height": 452
+        },
+        {
+          "src": "/assets/img/gapanosh/img-16-960.jpg",
+          "width": 960,
+          "height": 905
+        },
+        {
+          "src": "/assets/img/gapanosh/img-16-1024.jpg",
+          "width": 1024,
+          "height": 965
+        }
+      ]
+    }
+  },
+  "bio-2/img-01": {
+    "key": "bio-2/img-01",
+    "width": 1252,
+    "height": 1252,
+    "aspect": 1,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/bio-2/img-01-480.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/assets/img/bio-2/img-01-960.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/assets/img/bio-2/img-01-1252.webp",
+          "width": 1252,
+          "height": 1252
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/bio-2/img-01-480.png",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/assets/img/bio-2/img-01-960.png",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/assets/img/bio-2/img-01-1252.png",
+          "width": 1252,
+          "height": 1252
+        }
+      ]
+    }
+  },
+  "site/logo": {
+    "key": "site/logo",
+    "width": 400,
+    "height": 379,
+    "aspect": 1.0554,
+    "formats": {
+      "webp": [
+        {
+          "src": "/assets/img/site/logo-120.webp",
+          "width": 120,
+          "height": 114
+        },
+        {
+          "src": "/assets/img/site/logo-240.webp",
+          "width": 240,
+          "height": 227
+        },
+        {
+          "src": "/assets/img/site/logo-400.webp",
+          "width": 400,
+          "height": 379
+        }
+      ],
+      "fallbackType": "png",
+      "fallback": [
+        {
+          "src": "/assets/img/site/logo-120.png",
+          "width": 120,
+          "height": 114
+        },
+        {
+          "src": "/assets/img/site/logo-240.png",
+          "width": 240,
+          "height": 227
+        },
+        {
+          "src": "/assets/img/site/logo-400.png",
+          "width": 400,
+          "height": 379
+        }
+      ]
+    }
+  }
+}

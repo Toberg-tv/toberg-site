@@ -1,0 +1,13 @@
+---
+layout: base.njk
+pageTitle: "INFO — TOBERG"
+pageDescription: "Toberg is me, Toby Auberg, a London based 3D visual artist and animator person."
+permalink: /bio-2/index.html
+---
+{% from "modules.njk" import renderModules %}
+<article class="page info-page">
+  <h1 class="visually-hidden">INFO</h1>
+  <div class="page-content">
+    {{ renderModules(info.modules) }}
+  </div>
+</article>

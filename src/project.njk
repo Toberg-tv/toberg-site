@@ -1,0 +1,19 @@
+---
+layout: base.njk
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "/{{ project.slug }}/index.html"
+---
+{% from "modules.njk" import renderModules %}
+<article class="project">
+  <header class="page-header">
+    <h1 class="title">{{ project.title }}</h1>
+    {% if project.description %}<p class="description">{{ project.description }}</p>{% endif %}
+  </header>
+  <div class="page-content">
+    {{ renderModules(project.modules) }}
+  </div>
+  <div class="back-to-top"><a href="#top"><span class="arrow">&uarr;</span> Back to Top</a></div>
+</article>

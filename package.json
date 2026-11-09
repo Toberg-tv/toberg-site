@@ -1,0 +1,23 @@
+{
+  "name": "toberg-tv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static rebuild of toberg.tv (Adobe Portfolio) for local development.",
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "preview": "node scripts/serve.mjs",
+    "extract": "node scripts/extract.mjs",
+    "images": "node scripts/images.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^5.0.0",
+    "cheerio": "^1.0.0"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.0.0",
+    "@fontsource/zilla-slab": "^5.0.0"
+  }
+}

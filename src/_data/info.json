@@ -1,0 +1,45 @@
+{
+  "title": "INFO",
+  "modules": [
+    {
+      "type": "text",
+      "html": "<div style=\"text-align:center;\"><span style=\"font-size:46px;\" class=\"texteditor-inline-fontsize\">Hi!</span><br></div>",
+      "width": null,
+      "maxWidth": null,
+      "float": null,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/0f71ee5d-a539-4546-99db-193306a8432a_rw_1920.png?h=ad2fadc4fe222e3e9a9660010a826630",
+      "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/0f71ee5d-a539-4546-99db-193306a8432a.png?h=bdc7e02f40dae78bf530c679f2d4834f",
+      "width": 18,
+      "float": null,
+      "paddingTop": null,
+      "paddingBottom": null,
+      "alt": "",
+      "caption": null,
+      "key": "bio-2/img-01",
+      "raw": "_raw/bio-2/img-01.png"
+    },
+    {
+      "type": "text",
+      "html": "<div><span>Toberg is me, Toby Auberg, a <span class=\"texteditor-inline-color\" style=\"color:#999999;\">London/Berlin </span>based 3D visual artist and animator person. I'm really into sensory overload, abstract characters and virtual worlds, sometimes dabbling in political themes.&nbsp;Originally I started&nbsp;out working in film in Los Angeles, I moved to Sweden to study Motion Graphics at Hyper Island, and studied Experimental Animation at the Royal College of Art in London. I cut my teeth as a junior at <a href=\"https://dblg.co.uk/\" target=\"_blank\"><span style=\"color:#999999;\" class=\"texteditor-inline-color\"><span class=\"underline\">DBLG </span></span></a>for a year and went freelance back in 2015. Founding member of the </span><a href=\"https://www.instagram.com/fudio.collective/\" target=\"_blank\">Fudio Collective!</a> Also, sometimes I do visiting lecturer gigs at Kingston University London and the Royal College of Art.<br></div>",
+      "width": 100,
+      "maxWidth": 800,
+      "float": "center",
+      "paddingTop": 24,
+      "paddingBottom": 0
+    },
+    {
+      "type": "text",
+      "html": "<div><div style=\"line-height:15px; text-align:left;\" class=\"texteditor-inline-lineheight\"><span style=\"color:#a2a2a2;\" class=\"texteditor-inline-color\"><span class=\"bold\"><span style=\"text-align:center; text-transform:uppercase;\"><span style=\"font-family:verdana;\"><span style=\"font-size:13px;\" class=\"texteditor-inline-fontsize\">&nbsp;- sOME MORE LINKS AND SELECTIONS AND AWARDS AND ARTICLES AND STUFF - </span></span></span></span></span><br></div><div style=\"line-height:15px; text-align:left;\" class=\"texteditor-inline-lineheight\"><span style=\"font-size:15px;\" class=\"texteditor-inline-fontsize\"><span style=\"color:#c8c8c8;\" class=\"texteditor-inline-color\"><span style=\"font-family:tahoma,sans-serif;\"><span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">'<span class=\"italic\">PILE</span>' GETS A </span></span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-family:var(--font-body); font-weight:600;\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\"><a href=\"https://vimeo.com/blog/post/pile-by-toberg/\" target=\"_blank\">VIMEO STAFF PICK PREMIERE</a> </span></span></span><span style=\"font-family:tahoma,sans-serif;\"><span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">AND NICE ARTICLES ON </span></span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-family:var(--font-body); font-weight:600;\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\"><a href=\"https://www.shortoftheweek.com/2021/06/28/pile/\" target=\"_blank\">SHORT OF THE WEEK</a>, <a href=\"https://directorsnotes.com/2021/07/16/toberg-pile/\" target=\"_blank\">DIRECTORS NOTES</a>,&nbsp;</span></span></span><span style=\"font-family:tahoma,sans-serif;\"><span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">AND </span></span><a href=\"https://www.itsnicethat.com/articles/toberg-pile-animation-070721\" target=\"_blank\"><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-family:var(--font-body); font-weight:600;\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\"> IT'S NICE THAT</span></span></span></a><span style=\"font-family:tahoma,sans-serif;\"><span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">. '<span class=\"italic\">PILE</span>' SELECTED FOR THE 2020 CINÉFONDATION LINEUP AT </span></span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><a href=\"https://www.festival-cannes.com/en/infos-communiques/communique/articles/the-cinefondation-selection-2020\" target=\"_blank\"><span style=\"font-family:var(--font-body); font-weight:600;\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\">CANNES</span></span></a></span><span style=\"font-family:tahoma,sans-serif;\">. <span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">'<span class=\"italic\">PILE</span>' WINS THE JURY AWARD FOR GRAD FILMS AT </span></span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-family:var(--font-body); font-weight:600;\"><a href=\"https://www.youtube.com/watch?v=mSaZPckpOVM&amp;list=PLs3Yp0_HhfXUJ5YgxADlzT02pB9aSos21&amp;index=6\" target=\"_blank\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\">ANNECY</span></a></span></span><span style=\"font-family:tahoma,sans-serif;\"><span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">. 2020 REEL QUICKIED ON </span></span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><a href=\"https://motionographer.com/quickie/reel-two-thousand-twenty/\" target=\"_blank\"><span style=\"font-family:var(--font-body); font-weight:600;\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\">MOTIONOGRAPHER</span></span></a></span><span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\"><span style=\"font-family:tahoma,sans-serif;\">. REALLY NICE ARTICLE ON </span></span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\"><a href=\"https://www.itsnicethat.com/articles/toberg-animation-170220\" target=\"_blank\"><span style=\"font-family:var(--font-body); font-weight:600;\"><span class=\"underline\">IT'S NICE THAT</span></span></a></span></span><span style=\"font-family:tahoma,sans-serif;\">. <span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">'<span class=\"italic\">CAUSIMS</span>' FEATURED ON </span></span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><a href=\"https://www.stashmedia.tv/causims-simulated-microcosmic-nature-documentary/\" target=\"_blank\"><span style=\"font-family:var(--font-body); font-weight:600;\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\">STASH</span></span></a></span><span style=\"font-family:tahoma,sans-serif;\">. <span class=\"texteditor-inline-color\">'<span class=\"italic\">SERATOX</span>' IN THE</span> </span><span style=\"font-size:16px;\" class=\"texteditor-inline-fontsize\"><span style=\"color:#9a9a9a;\" class=\"texteditor-inline-color\"><a href=\"https://www.behance.net/gallery/33245093/SERATOX?tracking_source=search_projects_recommended%257Cseratox\" target=\"_blank\"><span style=\"font-family:var(--font-body); font-weight:600;\">BEHANCE</span></a></span></span><span style=\"font-family:tahoma,sans-serif;\"> <span style=\"color:#b7b7b7;\" class=\"texteditor-inline-color\">MOTION SHOWCASE</span></span></span></span><br></div><div style=\"line-height:15px; text-align:left;\" class=\"texteditor-inline-lineheight\"><br></div></div>",
+      "width": 100,
+      "maxWidth": 600,
+      "float": "center",
+      "paddingTop": 0,
+      "paddingBottom": 0
+    }
+  ]
+}

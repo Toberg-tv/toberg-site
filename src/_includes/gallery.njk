@@ -1,0 +1,16 @@
+<section class="project-covers">
+  {% for project in projects %}
+    {% set coverLoading = "eager" if loop.index <= 4 else "lazy" %}
+    {% set coverPriority = "high" if loop.index <= 2 else "" %}
+    <a class="project-cover" href="/{{ project.slug }}/">
+      <div class="cover-image">
+        {% picture project.slug + "/cover", "", "(max-width: 540px) 100vw, (max-width: 932px) 50vw, 25vw", "cover-img", coverLoading, coverPriority %}
+      </div>
+      <div class="details-wrap">
+        <div class="details-inner">
+          <span class="title">{{ project.coverTitle or project.title }}</span>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</section>

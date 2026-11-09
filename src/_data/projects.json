@@ -1,0 +1,1131 @@
+[
+  {
+    "slug": "reel-2020",
+    "title": "REEL 2020",
+    "description": "Carefully condensed mishmash.\nMusic = Los Angeles 2046 - Mike Gao",
+    "coverTitle": "REEL 2020",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/06195015-2957-4b48-a906-ac3a50be3d3a_rwc_0x0x1381x1080x1381.jpg?h=4c087a78a9bc5969d39fee528c72b0a6",
+    "coverRaw": "_raw/reel-2020/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "391930254",
+        "src": "https://player.vimeo.com/video/391930254",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      }
+    ]
+  },
+  {
+    "slug": "flail-wip",
+    "title": "Work-In-Progress Feed for FLAIL",
+    "description": "An upcoming short film about a pitiful, flabby sack of flesh getting bludgeoned by all the stress, doom, and dopamine traps of this day and age. Try to imagine Sisyphus happy.",
+    "coverTitle": "Work-In-Progress Feed for FLAIL",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/82b6f4ed-6f69-4f75-989b-42427b4a596e_rwc_74x0x2340x1830x2340.png?h=cd746a85e4417d0fa7dca2ddd0a86ed2",
+    "coverRaw": "_raw/flail-wip/cover.png",
+    "modules": [
+      {
+        "type": "row",
+        "valign": "center",
+        "children": [
+          {
+            "flex": 7,
+            "modules": [
+              {
+                "type": "text",
+                "html": "<div>Testing some ideas for the ending when the perspective shifts to FPS mode and he experiences life more directly.<br></div>",
+                "width": 80,
+                "maxWidth": null,
+                "float": null,
+                "paddingTop": null,
+                "paddingBottom": null
+              }
+            ]
+          },
+          {
+            "flex": 18,
+            "modules": [
+              {
+                "type": "embed",
+                "provider": "framerate",
+                "id": null,
+                "src": "https://framerate.tv/embed/132e7dea-4375-444c-bd82-b1071ca1c644?primary_color=%23ffffff&track_color=%23ffffff&theme=minimal",
+                "aspect": 56.25,
+                "maxWidth": 1920,
+                "width": null,
+                "paddingTop": null,
+                "paddingBottom": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "valign": "top",
+        "children": [
+          {
+            "flex": 23,
+            "modules": [
+              {
+                "type": "image",
+                "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/28acd9dc-cf1a-4268-bf92-a7db90209ce6_rw_1200.png?h=83b542857e317616b45148cf7dd8c187",
+                "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/28acd9dc-cf1a-4268-bf92-a7db90209ce6.png?h=d0cc9a052c31bb1e906d82d0c2bec379",
+                "width": null,
+                "float": null,
+                "paddingTop": null,
+                "paddingBottom": null,
+                "alt": "",
+                "caption": null,
+                "key": "flail-wip/img-01",
+                "raw": "_raw/flail-wip/img-01.png"
+              }
+            ]
+          },
+          {
+            "flex": 27,
+            "modules": [
+              {
+                "type": "media_collection",
+                "items": [
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/12881299-b913-4544-8769-aea459d50519_rw_1920.png?h=4556ce67a87679e17e8e2806f51fdffc",
+                    "w": 1680,
+                    "h": 924,
+                    "flexGrow": 472.72727272727,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-01-01",
+                    "raw": "_raw/flail-wip/mc-01-01.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/d176f541-fe16-4941-a1c3-d0fd640f919e_rw_1200.png?h=90951f5a2088cbf96a7b8d572c482f92",
+                    "w": 1200,
+                    "h": 651,
+                    "flexGrow": 478.80418535127,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-01-02",
+                    "raw": "_raw/flail-wip/mc-01-02.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/9a9515ef-4f88-479d-932e-00b1590c113a_rw_1200.png?h=d35e667ec10e0016bf42ee5f2fe87caf",
+                    "w": 815,
+                    "h": 470,
+                    "flexGrow": 450.85106382979,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-01-03",
+                    "raw": "_raw/flail-wip/mc-01-03.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/64d94fba-df98-494c-9256-48ffdc3e903c_rw_1920.png?h=537014c9686696e9547a674e6bf5b8ea",
+                    "w": 1405,
+                    "h": 798,
+                    "flexGrow": 457.7694235589,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-01-04",
+                    "raw": "_raw/flail-wip/mc-01-04.png"
+                  }
+                ],
+                "paddingTop": 0,
+                "paddingBottom": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "valign": "center",
+        "children": [
+          {
+            "flex": 147,
+            "modules": [
+              {
+                "type": "embed",
+                "provider": "framerate",
+                "id": null,
+                "src": "https://framerate.tv/embed/8ca225f5-2694-4813-a929-a973e313db63?primary_color=%23ffffff&track_color=%23ffffff&theme=minimal",
+                "aspect": 56.25,
+                "maxWidth": 1920,
+                "width": null,
+                "paddingTop": null,
+                "paddingBottom": 10
+              }
+            ]
+          },
+          {
+            "flex": 53,
+            "modules": [
+              {
+                "type": "text",
+                "html": "<div>The assets are still WIP but the systems are coming together and its good seeing a longer sequence of rough animation to get a sense for how it all feels together.&nbsp;<br></div>",
+                "width": 80,
+                "maxWidth": null,
+                "float": null,
+                "paddingTop": null,
+                "paddingBottom": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "valign": "top",
+        "children": [
+          {
+            "flex": 1,
+            "modules": [
+              {
+                "type": "media_collection",
+                "items": [
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/319fc2f3-00ff-4e4d-8642-9fd198f9bb6a_rw_600.png?h=7b3efe2db72da41694070eb005f8e3d7",
+                    "w": 278,
+                    "h": 395,
+                    "flexGrow": 182.98734177215,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-02-01",
+                    "raw": "_raw/flail-wip/mc-02-01.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/feadab3f-e847-4cde-8caf-c690718e6af7_rw_600.png?h=cf7cc20d0e24c1252b80560e46e97aff",
+                    "w": 595,
+                    "h": 754,
+                    "flexGrow": 205.1724137931,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-02-02",
+                    "raw": "_raw/flail-wip/mc-02-02.png"
+                  }
+                ],
+                "paddingTop": null,
+                "paddingBottom": null
+              }
+            ]
+          },
+          {
+            "flex": 1,
+            "modules": [
+              {
+                "type": "media_collection",
+                "items": [
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/3c765181-655a-4900-82f3-fa0d86be9503_rw_600.png?h=680a80238f6b311e45a43bdcc2515fd6",
+                    "w": 557,
+                    "h": 489,
+                    "flexGrow": 295.55102040816,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-03-01",
+                    "raw": "_raw/flail-wip/mc-03-01.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/2c8c3008-45ad-4f5a-9bc2-7b4a668949b5_rw_1200.png?h=cd363f7089898d72b77ec3b97b771df4",
+                    "w": 867,
+                    "h": 675,
+                    "flexGrow": 333.95555555556,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-03-02",
+                    "raw": "_raw/flail-wip/mc-03-02.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/171b60c2-2956-4f54-8095-241a1a00c083_rw_1200.png?h=bd81431ace958e57a0c036b6212a8ac4",
+                    "w": 907,
+                    "h": 399,
+                    "flexGrow": 591.02756892231,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-03-03",
+                    "raw": "_raw/flail-wip/mc-03-03.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/0dd8e8b0-1b79-455d-a659-e362a67d8374_rw_1200.png?h=779a9471169609674adbfb135b0025db",
+                    "w": 619,
+                    "h": 351,
+                    "flexGrow": 458.51851851852,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-03-04",
+                    "raw": "_raw/flail-wip/mc-03-04.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/f7cbb9a5-17d3-41ec-a4e4-e174fcb03f0b_rw_1920.png?h=a6f73748631a9466a3694649c10adf45",
+                    "w": 1421,
+                    "h": 817,
+                    "flexGrow": 452.21542227662,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-03-05",
+                    "raw": "_raw/flail-wip/mc-03-05.png"
+                  }
+                ],
+                "paddingTop": null,
+                "paddingBottom": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "valign": "top",
+        "children": [
+          {
+            "flex": 51,
+            "modules": [
+              {
+                "type": "image",
+                "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/30268fbd-df55-478a-a1ca-fde91e4fa714_rw_1920.png?h=801066c75a3460dc3596626f2c384b8d",
+                "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/30268fbd-df55-478a-a1ca-fde91e4fa714.png?h=099486fb6447e8858fee8f933001c4fe",
+                "width": 100,
+                "float": null,
+                "paddingTop": null,
+                "paddingBottom": 10,
+                "alt": "",
+                "caption": null,
+                "key": "flail-wip/img-02",
+                "raw": "_raw/flail-wip/img-02.png"
+              }
+            ]
+          },
+          {
+            "flex": 49,
+            "modules": [
+              {
+                "type": "media_collection",
+                "items": [
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/b908bd91-49d0-4e95-9e1a-9e4c52e6d9f8_rw_1920.png?h=0bb3bc40c55f0b78d845182ff21670c8",
+                    "w": 1920,
+                    "h": 1416,
+                    "flexGrow": 352.34972677596,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-04-01",
+                    "raw": "_raw/flail-wip/mc-04-01.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/88ea6402-819a-46e4-bddf-8f49998ebbd2_rw_1920.png?h=391b30a726d08127483355c0ee34a028",
+                    "w": 1920,
+                    "h": 1416,
+                    "flexGrow": 352.34972677596,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-04-02",
+                    "raw": "_raw/flail-wip/mc-04-02.png"
+                  }
+                ],
+                "paddingTop": null,
+                "paddingBottom": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "valign": "top",
+        "children": [
+          {
+            "flex": 51,
+            "modules": [
+              {
+                "type": "image",
+                "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/78cd2916-33d0-4244-a8f6-68163402f399_rw_1920.png?h=1f2b858cbb47f5e3adae756d027b3eab",
+                "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/78cd2916-33d0-4244-a8f6-68163402f399.png?h=f89361960e08b4cd6c27665a4fbeca1f",
+                "width": null,
+                "float": null,
+                "paddingTop": null,
+                "paddingBottom": null,
+                "alt": "",
+                "caption": null,
+                "key": "flail-wip/img-03",
+                "raw": "_raw/flail-wip/img-03.png"
+              }
+            ]
+          },
+          {
+            "flex": 49,
+            "modules": [
+              {
+                "type": "embed",
+                "provider": "adobe",
+                "id": "MdaChdqEHB5",
+                "src": "https://www-ccv.adobe.io/v1/player/ccv/MdaChdqEHB5/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+                "aspect": 56.25,
+                "maxWidth": 1280,
+                "width": null,
+                "paddingTop": null,
+                "paddingBottom": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "media_collection",
+        "items": [
+          {
+            "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/22a0ae0b-f751-416b-926b-9194ae5f03e5_rw_1920.png?h=839357e54915cd71e942906cc5fc8053",
+            "w": 1448,
+            "h": 1154,
+            "flexGrow": 326.23916811092,
+            "alt": "Early half baked idea on how the cameras gaze distorts the scene",
+            "caption": "Early half baked idea on how the cameras gaze distorts the scene",
+            "key": "flail-wip/mc-05-01",
+            "raw": "_raw/flail-wip/mc-05-01.png"
+          },
+          {
+            "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/2d974e67-65f4-4391-8387-beda0be6a023_rw_1920.png?h=09eb7af9c53fb3808ea4464493c78c2f",
+            "w": 1646,
+            "h": 1442,
+            "flexGrow": 296.78224687933,
+            "alt": "\"drew\" this while trying to explain the idea for the first time",
+            "caption": "\"drew\" this while trying to explain the idea for the first time",
+            "key": "flail-wip/mc-05-02",
+            "raw": "_raw/flail-wip/mc-05-02.png"
+          }
+        ],
+        "paddingTop": null,
+        "paddingBottom": null
+      },
+      {
+        "type": "row",
+        "valign": "top",
+        "children": [
+          {
+            "flex": 1,
+            "modules": [
+              {
+                "type": "media_collection",
+                "items": [
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/bcd3ea20-f756-4846-9997-c904128660ab_rw_600.png?h=eaa464d55325c5628319c06be61a4d62",
+                    "w": 414,
+                    "h": 297,
+                    "flexGrow": 362.42424242424,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-06-01",
+                    "raw": "_raw/flail-wip/mc-06-01.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/b469e95d-c751-4dd9-96ac-6d3442aa02c8_rw_600.png?h=92275f24b62af11c453377c786877da3",
+                    "w": 475,
+                    "h": 288,
+                    "flexGrow": 428.81944444444,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-06-02",
+                    "raw": "_raw/flail-wip/mc-06-02.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/b49c9f51-22ce-4146-bcb0-5d9fdec41d74_rw_600.png?h=1c349384097e21ad0bb237ad77c59527",
+                    "w": 507,
+                    "h": 300,
+                    "flexGrow": 439.4,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-06-03",
+                    "raw": "_raw/flail-wip/mc-06-03.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/b9d1f536-d88b-4e99-b0a2-faf28f616cc4_rw_600.png?h=4db4ec1ac0e237d427381a7f90290118",
+                    "w": 371,
+                    "h": 330,
+                    "flexGrow": 292.30303030303,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-06-04",
+                    "raw": "_raw/flail-wip/mc-06-04.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/9e2b1f12-8d1d-4084-97b0-90aa9b7e3620_rw_600.png?h=348bb85bd1ab5f90489b81575ed97e8d",
+                    "w": 409,
+                    "h": 324,
+                    "flexGrow": 328.20987654321,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-06-05",
+                    "raw": "_raw/flail-wip/mc-06-05.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/68f37dcf-7152-45fc-97f0-1857b07e342d_rw_600.png?h=16355208eb589da430d4a2c40831a2cd",
+                    "w": 260,
+                    "h": 308,
+                    "flexGrow": 219.48051948052,
+                    "alt": "",
+                    "caption": null,
+                    "key": "flail-wip/mc-06-06",
+                    "raw": "_raw/flail-wip/mc-06-06.png"
+                  }
+                ],
+                "paddingTop": null,
+                "paddingBottom": null
+              }
+            ]
+          },
+          {
+            "flex": 1,
+            "modules": [
+              {
+                "type": "media_collection",
+                "items": [
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/4b9c01f3-0a24-40e3-8141-488da578dd2f_rw_1920.png?h=596ac4d8cfd95847f89e2e2cec571ac6",
+                    "w": 1556,
+                    "h": 1142,
+                    "flexGrow": 354.25569176883,
+                    "alt": "Early ideas for the rig, before this was even gonna be a film",
+                    "caption": "Early ideas for the rig, before this was even gonna be a film",
+                    "key": "flail-wip/mc-07-01",
+                    "raw": "_raw/flail-wip/mc-07-01.png"
+                  },
+                  {
+                    "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/76189ab4-c060-45c2-9d0a-ba7d0810d0a4_rw_1920.png?h=c49382c8a6abc5cdea1e64d2cb051f15",
+                    "w": 1274,
+                    "h": 976,
+                    "flexGrow": 339.38524590164,
+                    "alt": "Raycasting features onto the surface of a blob",
+                    "caption": "Raycasting features onto the surface of a blob",
+                    "key": "flail-wip/mc-07-02",
+                    "raw": "_raw/flail-wip/mc-07-02.png"
+                  }
+                ],
+                "paddingTop": null,
+                "paddingBottom": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/a916f2c5-eda1-403e-97a4-41328196f5fb_rw_1920.jpg?h=fe8a769ac056fd68eaa6dc54ff3a948d",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/a916f2c5-eda1-403e-97a4-41328196f5fb.jpg?h=6472fd7f38910a8b16cfb89eaf9d12e0",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": "This is an old piece I started in 2021 while working from home during one of the lockdowns, I never finished it, but it's probably where this project started",
+        "key": "flail-wip/img-04",
+        "raw": "_raw/flail-wip/img-04.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "pile",
+    "title": "PILE",
+    "description": "Water then food. Agriculture then industry. Old then new. Critical then extra.\nSimple to complex. Concrete to abstract. Dirt to clouds. Real to unreal.",
+    "coverTitle": "PILE",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/d7b70596-85c6-4b0a-b0b3-07da69fd72d8_rwc_21x0x931x728x931.jpg?h=a56a41a668e77377d67195c3de6a13eb",
+    "coverRaw": "_raw/pile/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "566610997",
+        "src": "https://player.vimeo.com/video/566610997",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/814c074b-02ec-4cb5-994b-2444d71a7f48_rw_3840.jpg?h=762bb8becf3e25a51bf168c49c1491bb",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/814c074b-02ec-4cb5-994b-2444d71a7f48.jpg?h=2215c90abbf9fd2f711658f5cf5511f3",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "pile/img-01",
+        "raw": "_raw/pile/img-01.jpg"
+      },
+      {
+        "type": "row",
+        "valign": "top",
+        "children": [
+          {
+            "flex": 43,
+            "modules": [
+              {
+                "type": "text",
+                "html": "<div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">CREDITS:<br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">Computering: Toberg <br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">Sound Waves: Ben Goodall <br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">Additional assets: Leto Meade, Jim Cheetham, Matt Taylor, Anita Gill, Linyou Xie, Michelle Brand <br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">GAN animation: Erik Lintunen <br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">Thanks to all Å(u)berg people and RCA Animation 2019 <br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">With thanks to Neville Astley, Phil Davies, and The Elf Factory LTD <br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">MA Graduation Film, Royal College of Art <br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:10px;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:11px;\">Distribution by Miyu: https://www.miyu.fr/distribution/ </span><br></span></div><div class=\"caption\" style=\"line-height: 9px; text-align: left;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:10px;\"><br></span></div><div style=\"line-height: 19px; text-align: left;\" class=\"caption\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:9px;\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:10px;\">FESTIVALS:<br>BFI LFF 2019, Anibar 2020, Anifilm 2020, Anim'est 2020, Anima 2020, Animac 2020, Animakom 2020, Animanima 2020, Animaviso 2020, Animateka 2020, Annecy 2020, BIAF 2020, Bit Bang 2020, Bolton 2020, British Shorts 2020, CICAF 2020, Cinanima 2020, Cannes Cinéfondation 2020, San Sebastián IFF 2020, Euroshorts 2020, Fest Fest Anča 2020, Festival Tous Courts 2020, First Crossings 2020, Florida Animation Festival 2020, Fort Lauderdale IFF 2020, Hiroshima International Animation Festival 2020, Imaginaria 2020, LIAF 2020, Linoleum 2020, MAFICI 2020, Monstra 2020, MUMIA 2020, Pictoplasma 2020, Pittsburgh Shorts 2020, Pixelatl 2020, Ars Electronica 2020, PSIAF 2020, REX 2020, Santa Fe Independent Film Festival 2020, SIGGRAPH Asia 2020, Sweaty Eyeballs 2020, Urban Films Festival 2020, Viborg Animation Festival 2020, Warsaw Animation Film Festival 2020, WFAF 2020, Animation Dingle 2021, Animocje 2021, Annapolis Film Festival 2021, Cairotronica 2021, Festival Premiers Plans d'Angers 2021, FIAF 2021, Framed 2021</span><br></span></div>",
+                "width": null,
+                "maxWidth": null,
+                "float": null,
+                "paddingTop": null,
+                "paddingBottom": null
+              }
+            ]
+          },
+          {
+            "flex": 57,
+            "modules": [
+              {
+                "type": "text",
+                "html": "<div style=\"text-align:left;\" class=\"caption\"><span style=\"font-size:10px;\" class=\"texteditor-inline-fontsize\">AWARDS:<br>Annecy 2020 - Jury award for a graduation short film<br>Ars Electronica 2020 - Honorary mention in computer animation competition<br>Santa Fe Independent Film Festival 2020 – Best experimental short, tied<br>Fort Lauderdale 2020 - Best animation<br>Animakom 2020 -Innovation award<br>Florida Animation Festival 2020 -Honorable mention student animation 3D/CGI<br>MAFICI 2020 - Special mention for best direction<br>Mumia 2020 -3rd place international competition<br>PSIAF 2020 - Best global issues &amp; environmental concerns animated short</span><br></div><div style=\"text-align:left;\" class=\"caption\"><br></div><div style=\"text-align:left;\" class=\"caption\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:10px;\">ARTICLES:<br>Vimeo Staff Pick Premiere: <a href=\"https://vimeo.com/blog/post/pile-by-toberg/\">vimeo.com/blog/post/pile-by-toberg/</a><br>Short of the Week: <a href=\"https://www.shortoftheweek.com/2021/06/28/pile/\" target=\"_blank\">shortoftheweek.com/2021/06/28/pile/</a><br>It’s Nice That: <a href=\"https://www.itsnicethat.com/articles/toberg-pile-animation-070721\" target=\"_blank\">itsnicethat.com/articles/toberg-pile-animation-070721</a><br>Directors Notes: <a href=\"https://www.shortoftheweek.com/2021/06/28/pile/\" target=\"_blank\">shortoftheweek.com/2021/06/28/pile/</a><br><br></span></div>",
+                "width": null,
+                "maxWidth": null,
+                "float": null,
+                "paddingTop": null,
+                "paddingBottom": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "causims-1",
+    "title": "CAUSIMS",
+    "description": "An impossible microcosm generated out of simulated nature completely departed from reality \nin an impossible microcosm generated out of simulated nature completely departed from reality\nin an impossible microcosm generated out of simulated nature...",
+    "coverTitle": "CAUSIMS",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/af748585-50d1-47b3-9995-11f3bf65b659_car_202x158.jpg?h=3d5a897b1c0538bbb513886e238f8aa8",
+    "coverRaw": "_raw/causims-1/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "345175641",
+        "src": "https://player.vimeo.com/video/345175641",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/c97c0345-bbb8-434d-b571-716e058a4776_rw_1920.jpg?h=b8f3ec468c790c7c8589c4c66295335a",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/c97c0345-bbb8-434d-b571-716e058a4776.jpg?h=f0919055fcd08b1847c8c6226da4736c",
+        "width": null,
+        "float": null,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "alt": "",
+        "caption": null,
+        "key": "causims-1/img-01",
+        "raw": "_raw/causims-1/img-01.jpg"
+      },
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "348129487",
+        "src": "https://player.vimeo.com/video/348129487",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      }
+    ]
+  },
+  {
+    "slug": "seratox",
+    "title": "SERATOX",
+    "description": "IP fabrication, presentation and orientation of SERATOX labs; featuring strides in the fields of progressive biology, hybrid creature cage fighting, dairy products and more. \nSpecial thanks to Felix Gross Harrison, Funk Jetdie, Jakob “DBF” Fyledal, Mons Ram Bagge.  Made with Cinema 4D, Octane render and After Effects.",
+    "coverTitle": "SERATOX",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/d37b0896e854191a11b1ec451c40ba1a56713ee882eef3eeccba5d39dc67068bbfc16cb7fc3d62dd_car_202x158.jpg?h=b3df29fb7a3558c51591c351dbe2d700&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RzL29yaWdpbmFsLzc4NTViMzMzMjQ1MDkzLlkzSnZjQ3c0TnpZc05qZzFMREl3TVN3eE53LmpwZw==",
+    "coverRaw": "_raw/seratox/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "152949161",
+        "src": "https://player.vimeo.com/video/152949161",
+        "aspect": 56.25,
+        "maxWidth": 1280,
+        "width": 100,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/00bacbcc99d420b143db0aad_rw_1200.jpg?h=71a1b5c4033428a560e80ed1c01ba539",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/00bacbcc99d420b143db0aad.jpg?h=1326449347a589a5f505c4ef649b899b",
+        "width": 100,
+        "float": "center",
+        "paddingTop": 26,
+        "paddingBottom": 0,
+        "alt": "",
+        "caption": null,
+        "key": "seratox/img-01",
+        "raw": "_raw/seratox/img-01.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/5a3560d4c9df8b600088e42e_rw_1200.jpg?h=e07f99aea5d2f54d2949368abb9c0f80",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/5a3560d4c9df8b600088e42e.jpg?h=f23fc2d7eb97aaf7b122db5cfd194998",
+        "width": 100,
+        "float": "center",
+        "paddingTop": 0,
+        "paddingBottom": 30,
+        "alt": "",
+        "caption": null,
+        "key": "seratox/img-02",
+        "raw": "_raw/seratox/img-02.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "into-yourself-fall-anish-kapoors-vr-experience",
+    "title": "'INTO YOURSELF, FALL' - ANISH KAPOOR'S VR EXPERIENCE",
+    "description": "In 2017, I art directed my first VR project for Anish Kapoor's first VR project. I created concept art and 3d tests based on Anish's style and volume of work. Working with the team at Debug to make it a (virtual) reality. Checkout debug.digital",
+    "coverTitle": "'INTO YOURSELF, FALL' - ANISH KAPOOR'S VR EXPERIENCE",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/cdebc8a7-2950-45e7-818a-ad2c20b73ba4_car_202x158.jpg?h=e0c99510c39ee3ef294adffaa16366d1",
+    "coverRaw": "_raw/into-yourself-fall-anish-kapoors-vr-experience/cover.jpg",
+    "modules": [
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/15ebb784-0a07-48e5-8e23-32be29f799ba_rw_1920.jpg?h=42f33d81986bfdd8ceba8abd43e04185",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/15ebb784-0a07-48e5-8e23-32be29f799ba.jpg?h=9f27c4392895cc62a6c720642811b62e",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "into-yourself-fall-anish-kapoors-vr-experience/img-01",
+        "raw": "_raw/into-yourself-fall-anish-kapoors-vr-experience/img-01.jpg"
+      },
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "342238169",
+        "src": "https://player.vimeo.com/video/342238169",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      }
+    ]
+  },
+  {
+    "slug": "luhndonon-looped",
+    "title": "LUHNDONON LOOPED",
+    "description": "A love letter to London.  For Loopdeloop, November 2017.\nSound and music by Ansso An\nhttps://soundcloud.com/mellow_blush\nhttps://vimeo.com/ansso",
+    "coverTitle": "LUHNDONON LOOPED",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/b5f5cf93-4ddb-4580-ada1-adada8136161_car_202x158.jpg?h=ca5391d297b787ce6335866bd153184e",
+    "coverRaw": "_raw/luhndonon-looped/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "242614394",
+        "src": "https://player.vimeo.com/video/242614394",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/13493331-44e3-4131-bff3-75f960b5100b_rw_1920.jpg?h=c6fac89162440e0bc4b9678de8cce819",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/13493331-44e3-4131-bff3-75f960b5100b.jpg?h=b028dd802c893550ab7ff8138b8e516b",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "luhndonon-looped/img-01",
+        "raw": "_raw/luhndonon-looped/img-01.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "funkjetdie-sweetnerve",
+    "title": "FunkJetDie - SweetNerve",
+    "description": "Quick visuals experiment for FunkJetDie. Sourced from a piece of phone footage.\nhttps://soundcloud.com/funkjetdie",
+    "coverTitle": "FunkJetDie - SweetNerve",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/efdd6f1c-847a-46f6-8acd-601159a713f9_car_202x158.png?h=f179b57e6f8670449e455326321c9f22",
+    "coverRaw": "_raw/funkjetdie-sweetnerve/cover.png",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "171097411",
+        "src": "https://player.vimeo.com/video/171097411",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      }
+    ]
+  },
+  {
+    "slug": "bufo",
+    "title": "BU(f)O",
+    "description": "Bufo doesn't know the world by an alkaloid and a half. \nMade with c4d (Octane render) and After effects.\nSound by ideosound.com",
+    "coverTitle": "BU(f)O",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/9f159e99-ec34-4fd4-abf5-5f6a74f7ba24_rwc_66x0x432x337x432.jpg?h=42e0f3c3a74a25e0d88a685c79e5382a",
+    "coverRaw": "_raw/bufo/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "163242693",
+        "src": "https://player.vimeo.com/video/163242693",
+        "aspect": 56.22,
+        "maxWidth": 900,
+        "width": null,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/11b32253184f7912a31321bb_rw_1200.jpg?h=e58dda9bdd1d6cc38dbbb6e81103b58a",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/11b32253184f7912a31321bb.jpg?h=3d9efcefe6d864cff5df58aa45420da4",
+        "width": null,
+        "float": null,
+        "paddingTop": 0,
+        "paddingBottom": 17,
+        "alt": "",
+        "caption": null,
+        "key": "bufo/img-01",
+        "raw": "_raw/bufo/img-01.jpg"
+      },
+      {
+        "type": "embed",
+        "provider": "adobe",
+        "id": "JWnxGMJ573B",
+        "src": "https://www-ccv.adobe.io/v1/player/ccv/JWnxGMJ573B/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+        "aspect": 56.25,
+        "maxWidth": 1280,
+        "width": 57,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    ]
+  },
+  {
+    "slug": "bears-on-stairs-1",
+    "title": "BEARS ON STAIRS",
+    "description": "Back in the day, the DBLG team got a 3D printer and we made animation with it. \nProps to the folks at Blue Zoo for animating the bear! Much love for the old DBLG crew...",
+    "coverTitle": "BEARS ON STAIRS",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/875fbeca-b544-412f-9b69-d2601f923436_rwc_84x0x431x338x431.jpg?h=87223de0ab61c4aac96988ca95e9ed90",
+    "coverRaw": "_raw/bears-on-stairs-1/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "91711011",
+        "src": "https://player.vimeo.com/video/91711011?title=0&byline=0&portrait=0&color=e5e0db",
+        "aspect": 56.25,
+        "maxWidth": 1280,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/2e815dd7-5a2a-4f72-8144-eef64e6c927c_rw_1920.jpg?h=64712d54250fd13e9c0bc1c4560ad1db",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/2e815dd7-5a2a-4f72-8144-eef64e6c927c.jpg?h=945c211e265cf5de16598593ccd06061",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "bears-on-stairs-1/img-01",
+        "raw": "_raw/bears-on-stairs-1/img-01.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "the-infamous-chalk-girl",
+    "title": "THE INFAMOUS CHALK GIRL",
+    "description": "Back in 2017, I animated the backstory of a well known Hong Kong pro-democracy activist for 'The Infamous Chalk Girl', a short documentary commissioned by The Guardian. Directed by San San F Young, Edited by Adam Thomas, and Additional animation by Anita Gill.",
+    "coverTitle": "THE INFAMOUS CHALK GIRL",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/a608d199-8257-42ba-87f1-9b051be9f89f_car_202x158.jpg?h=8f64b1033979f83239c92184b3934350",
+    "coverRaw": "_raw/the-infamous-chalk-girl/cover.jpg",
+    "modules": [
+      {
+        "type": "embed",
+        "provider": "youtube",
+        "id": "265cpozcjzM",
+        "src": "https://www.youtube.com/embed/265cpozcjzM",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/567dfd2f-fe8d-4115-950e-0ccf8ef30e17_rw_1920.jpg?h=005fc6060da488f9f6104f3643801152",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/567dfd2f-fe8d-4115-950e-0ccf8ef30e17.jpg?h=c88ba5f9d9821688611108c633f650cc",
+        "width": null,
+        "float": null,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "alt": "",
+        "caption": null,
+        "key": "the-infamous-chalk-girl/img-01",
+        "raw": "_raw/the-infamous-chalk-girl/img-01.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/bdf397bc-44a5-40f5-8ac2-1a5a24661e19_rw_1920.jpg?h=aa2998437192e92c5baf64a804429375",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/bdf397bc-44a5-40f5-8ac2-1a5a24661e19.jpg?h=0f87b7102b2f969cbec67da39b8ac762",
+        "width": null,
+        "float": null,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "alt": "",
+        "caption": null,
+        "key": "the-infamous-chalk-girl/img-02",
+        "raw": "_raw/the-infamous-chalk-girl/img-02.jpg"
+      },
+      {
+        "type": "embed",
+        "provider": "vimeo",
+        "id": "341666854",
+        "src": "https://player.vimeo.com/video/341666854",
+        "aspect": 56.25,
+        "maxWidth": 1920,
+        "width": null,
+        "paddingTop": null,
+        "paddingBottom": null
+      }
+    ]
+  },
+  {
+    "slug": "gapanosh",
+    "title": "GapaNosh",
+    "description": "An old daily series I had going a couple years ago: taking screen caps of view-port glitches and mashing them together in Photoshop for a couple hours.",
+    "coverTitle": "GapaNosh",
+    "coverSrc": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/12dd9c6a-c172-4f25-a3af-953de4e619d4_rwc_84x0x431x338x431.jpg?h=331b9e04434ea791224a69f0980790e1",
+    "coverRaw": "_raw/gapanosh/cover.jpg",
+    "modules": [
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/bdb1c59e6ccb2b1338b72fbb_rw_1200.jpg?h=5f24e6f342270ea4faf9efa2aa6dedec",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/bdb1c59e6ccb2b1338b72fbb.jpg?h=3856c8aad2a208714a126298dce265f0",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-01",
+        "raw": "_raw/gapanosh/img-01.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/3d7cbea7378174f2f8900d71_rw_1200.jpg?h=39d8b4407e408d524ba47eb722ef73a6",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/3d7cbea7378174f2f8900d71.jpg?h=a599eabace2a5bc6f2fc56888282db47",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-02",
+        "raw": "_raw/gapanosh/img-02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/49db7d7b2007b36ad33cf5c6_rw_1200.jpg?h=c56462c15df09c9203e0b1a5bb373135",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/49db7d7b2007b36ad33cf5c6.jpg?h=9f27de0808e90d66e136955075ecdb0d",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-03",
+        "raw": "_raw/gapanosh/img-03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/6abb1ae905c1427f38f98c35_rw_1200.jpg?h=78f32a509916a90d721cd5034ddf6015",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/6abb1ae905c1427f38f98c35.jpg?h=fb05eb96a483e8654480a795c862bf55",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-04",
+        "raw": "_raw/gapanosh/img-04.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/50ea7bf2f7507d9abb451eff_rw_1200.jpg?h=5aa7067ac9454d5f64a85e3116959c82",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/50ea7bf2f7507d9abb451eff.jpg?h=3fd95da12a69c969fef0ad8d48aeb788",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-05",
+        "raw": "_raw/gapanosh/img-05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/1a182f46cc705d5334758231_rw_1200.jpg?h=cec9920ba71949d94e6d8ff8ab01de05",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/1a182f46cc705d5334758231.jpg?h=3a3c63e0d29bbb5c20c107d3c4778484",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-06",
+        "raw": "_raw/gapanosh/img-06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/f4598717400b71a60c1de133_rw_1200.jpg?h=c5821a3688c2a7f93b1a7d3e0c28ffd2",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/f4598717400b71a60c1de133.jpg?h=364efb5ff15dc73a6d9343bfb9b2a2ac",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-07",
+        "raw": "_raw/gapanosh/img-07.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/7338e94fb877aede61f1a16f_rw_1200.jpg?h=f02242a46cbcf5feb4ac03db1891ad7f",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/7338e94fb877aede61f1a16f.jpg?h=7c66a9a6672ecc26d2f113b96abe41f0",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-08",
+        "raw": "_raw/gapanosh/img-08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/ebbfd0952b7463b05bb2dba5_rw_1200.jpg?h=7ec7237f2fe09a93aad8d935e18fa613",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/ebbfd0952b7463b05bb2dba5.jpg?h=1a09b82aaea6b1ac0f5271d631975e9d",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-09",
+        "raw": "_raw/gapanosh/img-09.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/2ca5ad86263a5bd7c7dbe331_rw_1200.jpg?h=e6dc5689ca0ea155e4bd0497585c7a6c",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/2ca5ad86263a5bd7c7dbe331.jpg?h=c302596fe2453fcfc7aab69669116358",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-10",
+        "raw": "_raw/gapanosh/img-10.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/a226c728473dd7be20dd3240_rw_1200.jpg?h=4fa506c4556d1d3c8605f848f8782efa",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/a226c728473dd7be20dd3240.jpg?h=0e2c8ad1e5daa01254ee07dbba1abbba",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-11",
+        "raw": "_raw/gapanosh/img-11.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/f189b56000d53cf60c1f2477_rw_1200.jpg?h=04aaa179628dd2c5ac58f972973fc654",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/f189b56000d53cf60c1f2477.jpg?h=ba1acc34256bb5e2640fed32f9792d3d",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-12",
+        "raw": "_raw/gapanosh/img-12.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/4d2af83c80f3155720ef1ec0_rw_1200.jpg?h=68445e029976477fa0e2f2bcd220c0df",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/4d2af83c80f3155720ef1ec0.jpg?h=c6a97b70d4b8683962a15ac5a01362af",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-13",
+        "raw": "_raw/gapanosh/img-13.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/146c621581374f9d5a75fd54_rw_1200.jpg?h=8e566e3e516e20c4c059c452afa2f5b6",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/146c621581374f9d5a75fd54.jpg?h=4aa83e69eaa60f1de4dd86bc7444cba5",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-14",
+        "raw": "_raw/gapanosh/img-14.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/bd7f74c881d9956ff65154d9_rw_1200.jpg?h=1e10cfe4ccfaef3dc1fdc722ea33ad31",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/bd7f74c881d9956ff65154d9.jpg?h=76836234971a0e453944486a27a18711",
+        "width": null,
+        "float": null,
+        "paddingTop": null,
+        "paddingBottom": null,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-15",
+        "raw": "_raw/gapanosh/img-15.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/4c4de1428370ade9077b33c3_rw_1200.jpg?h=516ce7d393e95f74403f64265b663bda",
+        "full": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/4c4de1428370ade9077b33c3.jpg?h=93df260b209d251fa8a1bcfbdf74b3ce",
+        "width": 100,
+        "float": "center",
+        "paddingTop": 0,
+        "paddingBottom": 30,
+        "alt": "",
+        "caption": null,
+        "key": "gapanosh/img-16",
+        "raw": "_raw/gapanosh/img-16.jpg"
+      }
+    ]
+  }
+]

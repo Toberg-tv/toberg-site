@@ -1,0 +1,18 @@
+{
+  "title": "TOBERG",
+  "author": "Toby Auberg",
+  "description": "Toberg is me, Toby Auberg, a London based 3D visual artist and animator person.",
+  "vimeo": "https://vimeo.com/user4603386",
+  "logoRaw": "_raw/site/logo.png",
+  "logoUrl": "https://cdn.myportfolio.com/6925530fdae2de036511a63eba0d096b/3717503d-de6c-495d-97c5-c1c9c644ebee_rwc_0x0x3000x2840x4096.png?h=011bdc7b219c2583ddfd1f9f4b22d0ed",
+  "nav": [
+    {
+      "label": "Projects",
+      "href": "/"
+    },
+    {
+      "label": "INFO",
+      "href": "/bio-2/"
+    }
+  ]
+}
