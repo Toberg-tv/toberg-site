@@ -3,6 +3,20 @@
 Status: approved, cutover in progress. This runbook is the durable record of the DNS
 baseline, target configuration, sequence, verification, and rollback.
 
+## Current progress (2026-11-09)
+
+- GitHub Pages custom domain is set to `toberg.tv`.
+- The workflow rebuild confirmed `actions/configure-pages` reports `base_path=''`; the
+  artifact uses root URLs (`/assets/...`, `/pile/`). The URL guard step passes.
+- `https://toberg-tv.github.io/toberg-site/` now 301s to `http://toberg.tv/` (still Adobe
+  until DNS changes).
+- **Waiting on:** GoDaddy DNS changes — replace the apex A record with the four GitHub IPs
+  (optional AAAA records), update the `www` CNAME to `toberg-tv.github.io`, and preserve
+  MX/TXT. Then verify DNS, wait for the Let's Encrypt certificate, and enable Enforce HTTPS.
+- Recommended: verify `toberg.tv` in GitHub profile Pages settings via the
+  `_github-pages-challenge-Toberg-tv` TXT record.
+- After HTTPS: post-cutover QA; then canonical tags + `sitemap.xml` + robots sitemap line.
+
 ## Decisions
 
 - Canonical host: **apex `toberg.tv`** (matches the old Adobe setup; `www` redirects to apex).

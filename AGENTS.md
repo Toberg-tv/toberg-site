@@ -5,7 +5,7 @@
 This repo is a static rebuild of the Adobe Portfolio site **toberg.tv** as an Eleventy site.
 It is **public** and deploys to GitHub Pages on every push to `main`:
 
-- Preview (pre-cutover): <https://toberg-tv.github.io/toberg-site/>
+- Old preview URL: <https://toberg-tv.github.io/toberg-site/> (now 301s to `toberg.tv`)
 - Repository: <https://github.com/Toberg-tv/toberg-site>
 - Target live URL: <https://toberg.tv/> (cutover in progress)
 
@@ -13,6 +13,10 @@ The user has approved the custom-domain cutover. Follow **`docs/domain-cutover.m
 DNS baseline, target records, sequence, verification, and rollback. Until DNS is switched,
 `toberg.tv` still serves the Adobe site. **Do not change MX/TXT/email records or cancel
 Adobe** as part of the cutover.
+
+**Current cutover state (2026-11-09):** the Pages custom domain `toberg.tv` is set and the
+workflow builds root URLs (`configure-pages` `base_path` is empty). Waiting on the GoDaddy
+DNS changes, then certificate/Enforce HTTPS, QA, and canonical/sitemap work.
 
 ## Commands
 
@@ -30,7 +34,7 @@ Adobe** as part of the cutover.
 - Auth: GitHub CLI, signed in as `Toberg-tv`; credential helper configured.
 - Commit identity: `Toby Auberg <hi@kinemus.com>`.
 - Deploy: `.github/workflows/pages.yml` on every push to `main` (and manual dispatch).
-- Preview: <https://toberg-tv.github.io/toberg-site/> (redirects to the custom domain once cutover completes).
+- Preview URL: <https://toberg-tv.github.io/toberg-site/> (301s to `toberg.tv`; use the custom domain once DNS is live).
 
 ## Domain cutover
 
