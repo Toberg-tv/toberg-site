@@ -3,19 +3,16 @@
 A static rebuild of the Adobe Portfolio site **toberg.tv**, built with
 [Eleventy](https://www.11ty.dev/).
 
-The **toberg.tv domain still points to the Adobe site**. This repository publishes a
-preview on GitHub Pages at **<https://toberg-tv.github.io/toberg-site/>**. No custom
-domain, DNS, or Adobe settings have been changed.
+The site is being cut over from Adobe Portfolio to GitHub Pages at
+**<https://toberg.tv/>**. Until DNS is switched, `toberg.tv` still serves Adobe; the GitHub
+Pages build is already configured for the custom domain.
 
-## Live preview (GitHub Pages)
+## GitHub Pages
 
-**<https://toberg-tv.github.io/toberg-site/>**
-
-- The repository is **public**, which GitHub Free requires for Pages.
+- Repository: **<https://github.com/Toberg-tv/toberg-site>** (public).
 - Every push to `main` builds and deploys via `.github/workflows/pages.yml`.
-- Project Pages serves from the `/toberg-site/` subpath, so CI builds with
-  `PATH_PREFIX=/toberg-site/`. Local `npm run dev` still serves at `/`.
-- Custom domain and toberg.tv cutover are intentionally deferred.
+- The custom domain is **`toberg.tv`**; DNS/HTTPS cutover is in progress.
+- See [`docs/domain-cutover.md`](docs/domain-cutover.md) for the DNS runbook.
 
 ## Requirements
 
@@ -50,7 +47,6 @@ Press `Ctrl+C` in the terminal to stop it.
 | --- | --- |
 | `npm run dev` | Dev server with live reload at http://localhost:8080 |
 | `npm run build` | Build the static site into `_site/` |
-| `$env:PATH_PREFIX='/toberg-site/'; npm run build` | Build for the GitHub Pages subpath |
 | `npm run extract` | Re-scrape Adobe pages into `src/_data/*.json` and `_raw/` |
 | `npm run images` | Regenerate responsive images and the image manifest |
 
@@ -62,5 +58,5 @@ Press `Ctrl+C` in the terminal to stop it.
 - **Each project page** — title, description, images, and external Vimeo/YouTube/framerate embeds.
 - **`/bufo/` and `/flail-wip/`** — intentional "being migrated from Adobe" video placeholders.
 
-On the **live preview**, every route is nested under `/toberg-site/` (for example
-`/toberg-site/pile/`). Local dev keeps the root paths shown above.
+The canonical site is **<https://toberg.tv/>** (cutover in progress). Local dev keeps the
+root paths shown above.
